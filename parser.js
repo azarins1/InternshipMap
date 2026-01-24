@@ -12,59 +12,6 @@ const location_mappings = {
     'SF': 'San Francisco, CA',
     'LA': 'Los Angeles, CA'
 }
-const state_mappings_old = {
-    'AL': 'Alabama',
-    'AK': 'Alaska',
-    'AZ': 'Arizona',
-    'AR': 'Arkansas',
-    'CA': 'California',
-    'CO': 'Colorado',
-    'CT': 'Connecticut',
-    'DE': 'Delaware',
-    'DC': 'District of Columbia',
-    'FL': 'Florida',
-    'GA': 'Georgia',
-    'HI': 'Hawaii',
-    'ID': 'Idaho',
-    'IL': 'Illinois',
-    'IN': 'Indiana',
-    'IA': 'Iowa',
-    'KS': 'Kansas',
-    'KY': 'Kentucky',
-    'LA': 'Louisiana',
-    'ME': 'Maine',
-    'MD': 'Maryland',
-    'MA': 'Massachusetts',
-    'MI': 'Michigan',
-    'MN': 'Minnesota',
-    'MS': 'Mississippi',
-    'MO': 'Missouri',
-    'MT': 'Montana',
-    'NE': 'Nebraska',
-    'NV': 'Nevada',
-    'NH': 'New Hampshire',
-    'NJ': 'New Jersey',
-    'NM': 'New Mexico',
-    'NY': 'New York',
-    'NC': 'North Carolina',
-    'ND': 'North Dakota',
-    'OH': 'Ohio',
-    'OK': 'Oklahoma',
-    'OR': 'Oregon',
-    'PA': 'Pennsylvania',
-    'RI': 'Rhode Island',
-    'SC': 'South Carolina',
-    'SD': 'South Dakota',
-    'TN': 'Tennessee',
-    'TX': 'Texas',
-    'UT': 'Utah',
-    'VT': 'Vermont',
-    'VA': 'Virginia',
-    'WA': 'Washington',
-    'WV': 'West Virginia',
-    'WI': 'Wisconsin',
-    'WY': 'Wyoming'
-}
 const state_mappings = {
     'Alabama': 'AL',
     'Alaska': 'AK',
@@ -120,7 +67,7 @@ const state_mappings = {
 };
 
 
-var usa_only = false;
+var usa_only = true;
 
 // variables to keep track of 
 var global_job_count = 0;
@@ -178,10 +125,6 @@ for (let i = 0; i < 10; i++) {
 console.log(`\n${to_percent(top_job_cities, global_job_count)} of ${global_job_count} jobs located within the above cities`)
 console.log(`${loc_array.length} cities total!`)
 
-// get_geolocation_data_api();
-
-// fs.writeFileSync('./geolocations.csv', 'text!\nline 2!')
-
 // Process location string
 function process_location(loc) {
     loc = loc.trim()
@@ -214,8 +157,9 @@ function to_percent(num, denom) {
     return `${percent}%`;
 }
 
-var location_coords = {};
-function get_coords(){
+var location_coords = get_coords();
+function get_coords() {
+    let location_coords = {};
     const raw_data = fs.readFileSync('./worldcities.csv', 'utf8');
     const lines = raw_data.split('\n');
 
@@ -226,46 +170,50 @@ function get_coords(){
     const lat = headers.indexOf('"lat"');
     const lng = headers.indexOf('"lng"');
 
-    for (let i = 1; i < lines.length; i++){
+    // Process cities from most to least populated
+    for (let i = 1; i < lines.length; i++) {
         const data = lines[i].split(',');
-        for (let d = 0; d < data.length; d++){
-            data[d] = data[d].replaceAll('"','');
+        for (let d = 0; d < data.length; d++) {
+            data[d] = data[d].replaceAll('"', '');
         }
-        if (data[country] != 'United States')
-            continue;
 
         const city = data[city_name];
         const coords = [Number(data[lat]), Number(data[lng])] // Lat, Long
         const state = state_mappings[data[admin_name]];
-        const full_name = `${city}, ${state}`
-        console.log(full_name, coords)
-        
-        location_coords[full_name] = coords;
-    }
-}
-get_coords();
-console.log(Object.keys(location_coords).length, ' locations in the US');
-console.log('NYC',location_coords['New York, NY']);
-console.log('BOS',location_coords['Boston, MA'])
 
-// Get geolocation data with the database
-function get_geolocation_data() {
+        let full_name = `${city}, ${state}`
+        if (data[country] != 'United States') {
+            full_name = city; // International city; ignore state/admin region
+        }
+
+        if (location_coords[full_name] == undefined)
+            location_coords[full_name] = coords;
+    }
+    return location_coords;
+}
+
+
+// Write out ALL data to a JSON file - to be used in the HTML visualization!
+/**
+ * @param {Array} loc_array an array containing all of the individual locations with jobs
+ * @param {Object} location_coords an object containing (Location, Coordinate) pairs
+ */
+function write_all_data(loc_array, location_coords) {
+    let data = {};
+    data.cities = [];
     for (let i = 0; i < loc_array.length; i++) {
-        let location_data = loc_array[i].location.split(',')
-        let city = location_data[0];
-        let state = location_data[1]
-        console.log(city, state);
+        loc_array[i].data.coords = location_coords[loc_array[i].location];
+        // convert companies to an array
+        loc_array[i].data.companies = [...loc_array[i].data.companies].sort();
+        data.cities.push(loc_array[i]);
     }
-
+    let string = JSON.stringify(data);
+    let lines = string.split('{');
+    let text = lines[0];
+    for (let i = 1; i < lines.length; i++){
+        text += '{' + lines[i] + '\n'
+    }
+    fs.writeFileSync('./internship_data.json', text);
 }
 
-function lat_long_to_mercator(long, lat){
-    const R = 1; // arbitrary scale factor
-    const lat_0 = 100;
-    // center longitude of US is 100 degrees West
-    let x = R * (long - lat_0);
-    let y = R * (Math.log(Math.tan(0.4 * Math.PI + 0.5 * lat)));
-    return [x,y];
-}
-
-// console.log('ENV =',process.env.GEO_API);
+write_all_data(loc_array, location_coords);

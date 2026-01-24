@@ -1,0 +1,1733 @@
+{"cities":[
+{"location":"New York, NY","data":
+{"jobs":397,"companies":["Abdiel Capital","Absci","Adobe","AlixPartners","Allium","Altice USA","Amazon","American Express","Anchorage","Andreessen Horowitz","Arcesium","Assured Guaranty","Audax Group","BNP Paribas","Bedrock Robotics","Blackrock","Blackstone","Block","Blockhouse","Brevan Howard","Bridgewater Associates","Brilliant","Broadridge","Brookfield","Brookfield Asset Management","Brown Brothers Harriman","ByteDance","CVS Health","Carta Healthcare","Cboe","Cerity Partners","Charles River Associates (CRA)","Citadel Securities","Citi","Coinbase","D. E. Shaw","DESRI","DV Trading","Datadog","David Yurman","Deloitte","Deutsche Bank","Domino Data Lab","DoorDash","Dow Jones","Duolingo","Engineers Gate","Ernst & Young","Eulerity","FOX","FactSet","Fidelity Investments","Fifth Third Bank","Five Rings","Five Rings Capital","Fizz","Flow Traders","GTS","Galaxy","Garage","Garner Health","Geico","Genentech","Global Infrastructure","GlobalFoundries","GlossGenius","Goldman Sachs","Golin","Google","Grant Thornton","Guardian Life","Guidehouse","Gusto","Harmonic","Highmark Health","Hudson River Trading","IBM","IEX","ING","IPG DXTRA","Intercontinental Exchange","Intuit","JP Morgan Chase","Jane Street","Kensho","Lazard","Lyft","MEMX","Major League Baseball","Man Group","Marsh","Marshall Wace","Mercury","Meta","Microsoft","MongoDB","Morgan Stanley","N1","NBCUniversal","Nasdaq","Nestle","New York Life","Nexstar","Nokia","Nominal","OCC","ONE Finance","Octaura","OffDeal","PDT Partners","Palantir","Paramount Global","Persistent Systems","Point72","Port Authority NY NJ","PricewaterhouseCoopers (PwC)","Quantbot Technologies","RTX","Ramp","Reality Defender","Rilla","Robinhood","Royal Bank of Canada","S&P Global","SNC-Lavalin","SageSure","SeatGeek","Seven Research","Shopify","Sixfold","Snackpass","Sony","Sorare","Squarepoint","StoneX Group","Sumitomo Mitsui Banking Corporation","Susquehanna International Group (SIG)","Syntax","Syska Hennessy Group","TD Securities","Take Two","Talos Trading","The Federal Reserve System","The National Football League","The New York Times","The Trade Desk","The Tudor Group","The Walt Disney Company","TheGuarantors","Thermo Fisher Scientific","TikTok","Tower Research Capital","Tradeweb","Tradeweb Markets","TransPerfect","Trillium","Two Sigma","UNFPA","USA for UNHCR","Uber","Uncountable","Vatic Investments","Verisk","Versana","Viam","Viking Global","Virtu","Voyant Photonics","Walleye Capital","Warner Bros.","Wells Fargo","Wonder","iCapital Network","iHeartMedia"],"coords":[40.6943,-73.9249]}},
+{"location":"San Jose, CA","data":
+{"jobs":262,"companies":["ASML","Adobe","Altera Corporation","Archer","Astera Labs","Bloom Energy","ByteDance","Cadence Design Systems","Capital One","Cisco","Figure","Google","Hewlett Packard Enterprise","IBM","KLA","Micron Technology","Muon Space","Nokia","Nutanix","PayPal","RTX","Rambus","Roku","Samsung","Stryker","TetraMem","Thermo Fisher Scientific","TikTok","Viavi Solutions","WeRide","Western Digital","Zebra Technologies","Zscaler"],"coords":[37.3012,-121.848]}},
+{"location":"San Francisco, CA","data":
+{"jobs":226,"companies":["Abridge","Accenture","Adobe","Altruist","Amazon","Arcade","Arcade AI","Astranis","Atlassian","Atomic Semi","Autodesk","Base","Baseten","Bedrock Robotics","Benchling","Blackrock","Block","Capital One","Center for AI Safety","Circle","Clever","Coinbase","Crowe","Crusoe","Databricks","Decagon","Domino Data Lab","DoorDash","Eight Sleep","Ember AI","Ernst & Young","Eventual","FactSet","Farallon Capital Management","Fifth Third Bank","Figma","Genentech","General Motors","Gimlet Labs","GoFundMe","Google","Grammarly","Grant Thornton","Gusto","HP IQ","Handshake","Hearst","Intellistack","Lambda","Levi Strauss & Co.","Lumafield","Lyft","Mach9","Marsh","Mechanize","Mercury","Merge","Metronome","Midpoint Markets","MongoDB","NBCUniversal","Netic","Notion","Okta","Olive","PIP Labs","Patreon","Persona","Pinterest","PricewaterhouseCoopers (PwC)","Prologis","Pulse","Ramp","Ripple","Rippling","Salesforce","Samba TV","Samsara","Scale AI","Semgrep","Sentry","Sigma Computing","Slack","Snorkel AI","Stripe","The Walt Disney Company","Thermo Fisher Scientific","Together AI","Uber","Uncountable","Vercel","Walmart","Warner Bros.","Waymo","Wells Fargo","WhatNot","Zip","a37"],"coords":[37.7558,-122.4449]}},
+{"location":"Chicago, IL","data":
+{"jobs":208,"companies":["Accenture","Akuna Capital","Allstate","Allstate Insurance Company","Altom Transport","Apex Fintech Solutions","Arrive Logistics","BMO","Bank of America","Belvedere Trading","BlackEdge Capital","Blackrock","Boston Consulting Group","CCC Intelligent Solutions","CIBC","CME Group","CTC","Camping World","Capital One","CareBridge","Caterpillar Inc.","Cboe","Charles River Associates (CRA)","Chase","Chicago Trading Company","Chubb","Circle","Citadel","Cna Financial Corp","Codal","Crowe","DL Trading","DRW","Deloitte","Elevance Health","Enova","Equity Residential","Ernst & Young","FHLBank Chicago","FOX","FactSet","Fairlife","GCM Grosvenor","Geico","Gelber Group","Geneva Trading","Google","Grant Thornton","Guidehouse","HCSC","HNTB","Hartford Financial Services","Home Chef","IMC","IMC Trading","Inmar Intelligence","Invenergy","JP Morgan Chase","Jones Lang LaSalle (JLL)","Jump Trading","Marsh","Maven Securities","McDonald's","Morningstar","Motorola","Neuberger Berman","NinjaTrader","Northern Trust","OCC","Optiver","Origami Risk","PricewaterhouseCoopers (PwC)","Prologis","RSM","Radix Trading","SageSure","Stevens Capital Management","StoneX Group","Susquehanna International Group (SIG)","The Boeing Company","The Federal Reserve System","Thermo Fisher Scientific","TransMarket Group","TransUnion","Trillium","Vail Systems","Virtu Financial","Vizient","W.W. Grainger","Wipfli"],"coords":[41.8375,-87.6866]}},
+{"location":"Austin, TX","data":
+{"jobs":154,"companies":["3M","ASML","AT&T","Accenture","Adobe","Apex Fintech Solutions","Applied Materials","Arrive Logistics","Base Power","Bumble","CACI","CDK","CDK Global","Cerity Partners","CesiumAstro","Charles Schwab","Chase","Cigna Group","Circle","Cirrus Logic","Cloudflare","Confluent","Cotiviti","Crowdstrike","Dell Technologies","Dimensional Fund Advisors","Electronic Arts","Emerson Electric","Ericsson","Expedia Group","FactSet","Findhelp, A Public Benefit Corporation","General Motors","GlobalFoundries","Google","Guidehouse","HNTB","IBM","Intel","Inventing for Life","JP Morgan Chase","Keysight Technologies","LPL Financial Holdings","Micron Technology","MongoDB","NXP Semiconductors","Optiver","Oracle","Q2","Realtor.com","Rivos","Roku","SailPoint","Samsung","Schonfeld","Siemens","Silicon Laboratories","Skyworks","TEL","Tenstorrent","Token Metrics","Tokyo Electron","Trend Micro","VetsEZ","Virtu Financial","Visa"],"coords":[30.3005,-97.7522]}},
+{"location":"Seattle, WA","data":
+{"jobs":139,"companies":["Adobe","Amazon","Amperity","Anduril","Atlassian","Axon","Blackrock","Block","Blue Origin","Bristol Myers Squibb","ByteDance","Centific","Circle","Collaborative Robotics","DocuSign","Docusign","DoorDash","Duolingo","Expedia Group","Google","JP Morgan Chase","MCG Health","Meta","Moloco","MongoDB","NVIDIA","Nordstrom","Oracle","Palantir","Pinterest","PricewaterhouseCoopers (PwC)","Salesforce","Slack","Stripe","The Allen Institute for AI","The Boeing Company","The Walt Disney Company","TikTok","Truveta","Uber","WhatNot"],"coords":[47.6211,-122.3244]}},
+{"location":"Boston, MA","data":
+{"jobs":129,"companies":["Acadian Asset Management","Accenture","Airspace Intelligence","Amazon","Analog Devices","Anduril","Arch Capital Group","Arrowstreet Capital","AstraZeneca","Athena Health","Audax Group","Autodesk","Axon","Blackrock","Boston Consulting Group","Boston Properties","Bracebridge Capital","Brown Brothers Harriman","Circle","DTCC","Datadog","Deloitte","Ernst & Young","FactSet","Fidelity","Fidelity Investments","Grant Thornton","Guidehouse","HarbourVest","InterSystems","Invesco","Iron Mountain","KLA","Klaviyo","Lazard","Lendbuzz","Lumafield","MFS","MSD","Manulife Financial","Marsh","Medtronic","Meta","Metalenz","Motional AD","NRG Energy","PTC","PricewaterhouseCoopers (PwC)","Procter & Gamble (P&G)","Red Hat","Roku","Salesforce","Santander","Santander Global Facilities (SGF) US - Santander Group","Sonos","State Street","Takeda","Tive","Toast","Verisk","Verizon Communications","Vertex Pharmaceuticals","Walleye Capital","Wellington Management","Weston & Sampson","Zipcar"],"coords":[42.3188,-71.0852]}},
+{"location":"Atlanta, GA","data":
+{"jobs":120,"companies":["AIG","AT&T","Accenture","Airbus","Altium","Altium Packaging","AtkinsRéalis","Axon","Bank of America","Blackrock","Booz Allen","Cargill","Carrier Global","Chick-fil-A","Cox","Falcomm","GE Vernova","Genuine Parts Company","Google","Grant Thornton","Hermeus","Hive Financial Systems","Intercontinental Exchange","Intuit","Invesco","Johnson & Johnson","Keysight Technologies","Manhattan Associates","Nasdaq","Norfolk Southern","Playfly Sports","PrizePicks","PulteGroup","QTS","Quanta Services","RELEX Solutions","RaceTrac","Rheem","Siemens","The Boeing Company","The Federal Reserve System","The Home Depot","United Parcel Service (UPS)","Visa","Walker & Dunlop","Waystar","Witness AI"],"coords":[33.7628,-84.422]}},
+{"location":"Mountain View, CA","data":
+{"jobs":108,"companies":["Aurora Innovation","Databricks","General Motors","Google","Intuit","KBR","Kodiak Robotics","LinkedIn","Lunar Energy","Muon Space","Nuro","PricewaterhouseCoopers (PwC)","Reliable Robotics","Rolls Royce","Samsung Research America","Toyota Research Institute","Waymo","Wisk"],"coords":[37.4001,-122.0796]}},
+{"location":"Santa Clara, CA","data":
+{"jobs":90,"companies":["Amazon","Celestial AI","Cohesity","Fujitsu","GlobalFoundries","Howmet Aerospace","Intel","Johnson & Johnson","KLA","Marvell","Medtronic","NVIDIA","Oracle","Pure Storage","Rivos","Roche","ServiceNow"],"coords":[37.3646,-121.968]}},
+{"location":"Sunnyvale, CA","data":
+{"jobs":76,"companies":["CoStar Group","General Motors","Google","Hewlett Packard Enterprise","Illumio","Intuitive Surgical","Nokia","Northrop Grumman","Robert Bosch Venture Capital","Uber","Walmart","Wayve","YugaByte"],"coords":[37.3836,-122.0255]}},
+{"location":"Dallas, TX","data":
+{"jobs":71,"companies":["ASML","AT&T","American Heart Association","Apex Fintech Solutions","Boston Consulting Group","Charles River Associates (CRA)","Chase","Copart","Crowe","DTCC","Dallas Fort Worth International Airport","DriveTime","Energy Transfer Partners","Ernst & Young","Goldman Sachs","Grant Thornton","HF Sinclair","Hunt Oil Company","IBM","Nextdoor","Nokia","NorthMark Strategies","OCC","PricewaterhouseCoopers (PwC)","RSM","Santander","Santander Global Facilities (SGF) US - Santander Group","Shield AI","Sonic Healthcare USA","Southwest Airlines","The Boeing Company","The Federal Reserve System","Veryable","WSP","Wells Fargo"],"coords":[32.7935,-96.7667]}},
+{"location":"Cambridge, MA","data":
+{"jobs":69,"companies":["AbbVie","Adobe","Biogen","Bristol Myers Squibb","Capital One","Draper","Flagship Pioneering","Formlabs","GE Vernova","Google","Inventing for Life","Kensho","Lila Sciences","Lumafield","Merck","Microsoft","Moderna","Philips","RTX","S&P Global","Sanofi","Suno","Takeda","Tamr","Thermo Fisher Scientific","Toyota Research Institute"],"coords":[42.3759,-71.1185]}},
+{"location":"Houston, TX","data":
+{"jobs":64,"companies":["ABB","AIG","Accenture","Altom Transport","Atlas Copco Group","Axiom Space","C&S Wholesale Grocers","Castleton Commodities International","Caterpillar Inc.","Chevron Corporation","ConocoPhillips","Corebridge Financial","Dow Jones","Emerson Electric","Ernst & Young","Flowserve","GE Vernova","Genesis","Grant Thornton","Guidehouse","HMH","Hewlett Packard Enterprise","Hitachi","IBM","Invesco","JP Morgan Chase","Ketjen","Persona AI","Phillips 66","PricewaterhouseCoopers (PwC)","RSM","Rockwell Automation","RoviSys","Royal Bank of Canada","S&P Global","TC Energy","Thermo Fisher Scientific","Token Metrics","Williams"],"coords":[29.786,-95.3885]}},
+{"location":"San Diego, CA","data":
+{"jobs":63,"companies":["ASML","AeroVironment","Analog Devices","Axos Bank","BioMed Realty","Booz Allen","Bristol Myers Squibb","ByteDance","Dexcom","Exact Sciences","Google","Hologic","Innovative Defense Technologies","KeyCorp","NXP Semiconductors","Neurocrine Biosciences","Northrop Grumman","Qualcomm","RTX","ServiceNow","Shield AI","Solar Turbines","Sony","Sony Interactive Entertainment","U.S. Bancorp","Vertex Pharmaceuticals","Wealth Enhancement Group","Zoox"],"coords":[32.8313,-117.1222]}},
+{"location":"Los Angeles, CA","data":
+{"jobs":60,"companies":["Accenture","Altruist","Amgen","AnySignal","Arup","Blue Origin","Boston Consulting Group","Capital Group","Circle","Creative Artists Agency","DoorDash","Electronic Arts","Ernst & Young","FOX","Fehr & Peers","Freeform","Google","Grant Thornton","Guidehouse","Hermeus","Lightspark","Match Group","Netflix","Oaktree Capital Management","Paramount Global","PricewaterhouseCoopers (PwC)","Quantbot Technologies","RSM","Riot Games","Scanline VFX","Skyryse","Snap","Takeda","TikTok","United Talent Agency","WhatNot"],"coords":[34.1141,-118.4068]}},
+{"location":"Redmond, WA","data":
+{"jobs":60,"companies":["AT&T","Blizzard Entertainment","Centific","Google","Meta","Microsoft","Nintendo","SpaceX","Stryker","Terex"],"coords":[47.6763,-122.1169]}},
+{"location":"Milwaukee, WI","data":
+{"jobs":59,"companies":["ABB","Badger Meter","Baird","Charter Manufacturing","Clarios","HNTB","Johnson Controls","Marmon Holdings","Northwestern Mutual","Rockwell Automation","Uline","Veolia","WEC Energy Group","Wipfli","Zurn Elkay Water Solutions"],"coords":[43.0642,-87.9675]}},
+{"location":"Philadelphia, PA","data":
+{"jobs":59,"companies":["AVEVA","Accenture","Brown Brothers Harriman","Chubb","Comcast","Conner Strong & Buckelew","FMC Corporation","General Dynamics Mission Systems","Grant Thornton","HNTB","L3Harris Technologies","Marsh","ParetoHealth","Perpay","PricewaterhouseCoopers (PwC)","Seer Interactive","Subaru","Susquehanna International Group (SIG)","The Campbell's Company","The Federal Reserve System","URBN","United Parcel Service (UPS)","WSP"],"coords":[40.0077,-75.1339]}},
+{"location":"Washington, DC","data":
+{"jobs":56,"companies":["American Bankers Association","American Enterprise Institute","Anduril","Arch Capital Group","Blackrock","CACI","Circle","DC Water","Fannie Mae","HNTB","Highmark Health","IPG DXTRA","International Monetary Fund","LMI","Lynk","Marsh","PricewaterhouseCoopers (PwC)","Secretariat","Strada Education Foundation","The Washington Post","Washpost"],"coords":[38.9047,-77.0163]}},
+{"location":"San Mateo, CA","data":
+{"jobs":56,"companies":["Gilead Sciences","IXL Learning","Motorola","Replit","Roblox","Skild AI","Skydio","Verkada","Visa","WisdomAI","Zoox"],"coords":[37.5522,-122.3121]}},
+{"location":"Irvine, CA","data":
+{"jobs":55,"companies":["AbbVie","Anduril","Blizzard Entertainment","CoStar Group","Comcast","Cox","Google","Johnson & Johnson","Learfield Amplify","MKS Instruments","Marvell","Masimo","Medtronic","Obsidian Entertainment","RSM","Rivian","Samsung Research America","Sandisk","Santander","Skyworks","SpaceX","The Trade Desk","Verizon Communications","Walker & Dunlop"],"coords":[33.6772,-117.7738]}},
+{"location":"Charlotte, NC","data":
+{"jobs":53,"companies":["AIG","Accenture","Advocate Health Care","Allstate Insurance Company","Atrium Health","Bank of America","Computershare","Corning","Credit Karma","DP World","Dimensional Fund Advisors","Equitable Holdings","Ernst & Young","FactSet","Grant Thornton","Guidehouse","HNTB","Hartford Financial Services","Intapp","OneMain Financial","Parsons","Red Ventures","Ryan","Spectrum","Truist","U.S. Bank","USAA","Vanguard","Wells Fargo"],"coords":[35.2083,-80.8303]}},
+{"location":"Reston, VA","data":
+{"jobs":53,"companies":["ATPCO","Anduril","CACI","Comcast","Dev Technology Group","Expedition Technology","Fannie Mae","Google","ICF","ICF International","IDEMIA","Metron","NexThreat","Ntrepid Corporation","Parsons","Peraton","Sierra Nevada Coporation","The Aerospace Corporation","The Boeing Company","WSP"],"coords":[38.9497,-77.3461]}},
+{"location":"Palo Alto, CA","data":
+{"jobs":51,"companies":["ALSO","Anyscale","Geico","Google","Inflection","Intapp","JP Morgan Chase","Match Group","Palantir","Pinterest","Rivian","Salesforce","Snap","Tencent","Tesla","Typeface","Wing"],"coords":[37.3905,-122.1468]}},
+{"location":"United States","data":
+{"jobs":48,"companies":["Apple","Bristol Myers Squibb","CACI","Elanco","Energy Transfer Partners","Experian","GitHub","Highmark Health","Honeywell","Nokia","Oracle","Procter & Gamble (P&G)","Sikich","Vulcan Materials","Wasabi Technologies","Waters Corporation"]}},
+{"location":"Pittsburgh, PA","data":
+{"jobs":48,"companies":["Allegheny County","Aurora Innovation","BNY","Bank of New York Mellon","Carnegie Mellon University","Caterpillar Inc.","Covestro","Dick's Sporting Goods","Duolingo","First National Bank","Fortive","Google","HNTB","Highmark Health","Hitachi Energy","Howmet Aerospace","Innovative Systems","Motional AD","Oshkosh","Raymond James Financial","Robert Bosch Venture Capital","Smith+Nephew","StackAV","Steel Dynamics","Thermo Fisher Scientific","Triple","Williams"],"coords":[40.4397,-79.9763]}},
+{"location":"Minneapolis, MN","data":
+{"jobs":47,"companies":["AeroVironment","HNTB","Inspire","Inspire Medical Systems","Medtronic","Micron Technology","Montenson","PricewaterhouseCoopers (PwC)","Procter & Gamble (P&G)","RSM","Royal Bank of Canada","SPS Commerce","Sherwin-Williams","The Federal Reserve System","Thomson Reuters","Thrivent","Trane Technologies","U.S. Bancorp","Wipfli","Xcel Energy"],"coords":[44.9635,-93.2678]}},
+{"location":"Bellevue, WA","data":
+{"jobs":42,"companies":["Amazon","Databricks","Epic Games","GE Vernova","Google","HNTB","LinkedIn","Meta","Paccar","Robinhood","T-Mobile","Tanium","Tencent","The Boeing Company","The Trade Desk","USAFacts","UiPath","Visa"],"coords":[47.5951,-122.1535]}},
+{"location":"Cedar Rapids, IA","data":
+{"jobs":41,"companies":["BAE Systems","GreatAmerica","Ingredion","RTX","Skyworks","Wabtec"],"coords":[41.9662,-91.6783]}},
+{"location":"Madison, WI","data":
+{"jobs":40,"companies":["Baird","Catalent","Epic","Exact Sciences","GE Healthcare","Google","HNTB","Nelnet","QBE Insurance","SCS Engineers","Sentry Insurance","State of Wisconsin Investment Board","TREK","Thermo Fisher Scientific","TruStage"],"coords":[43.0822,-89.393]}},
+{"location":"Denver, CO","data":
+{"jobs":39,"companies":["Amazon","CACI","CenturyLink","Cerity Partners","Gusto","Ibotta","Lumen Technologies","Nasdaq","Ovintiv","Palantir","Plante Moran","Prologis","Quanta Services","SNC-Lavalin","The Trade Desk","United Launch Alliance","Western Union","Xcel Energy","Xcimer Energy","ibotta"],"coords":[39.762,-104.8758]}},
+{"location":"Raleigh, NC","data":
+{"jobs":38,"companies":["Arch Capital Group","Bandwidth","Genworth Financial","Google","HNTB","IXL Learning","JMP Statistical Discovery","Kimley Horn","LexisNexis Risk Solutions","Lucid","Pendo","Peter Millar","Plexus","Red Hat","Relay","Vanasse Hangen Brustlin (VHB)","insightsoftware"],"coords":[35.8324,-78.6429]}},
+{"location":"Menlo Park, CA","data":
+{"jobs":37,"companies":["BillionToOne","Duolingo","Fundamental Research Labs","LeoLabs","Meta","Robinhood","Snowflake"],"coords":[37.4685,-122.1673]}},
+{"location":"San Bruno, CA","data":
+{"jobs":36,"companies":["AbbVie","Genentech","Google","Zipline"],"coords":[37.6256,-122.4313]}},
+{"location":"Richardson, TX","data":
+{"jobs":36,"companies":["Geico","L3Harris Technologies","Lennox International","Micron Technology","Qorvo","RESPEC","RTX"],"coords":[32.9716,-96.7093]}},
+{"location":"Des Moines, IA","data":
+{"jobs":35,"companies":["Berkshire Hathaway Energy","Corteva","Corteva Agriscience","EMC Insurance","Mom's Meals","Nationwide","RSM","United Parcel Service (UPS)","Wellmark","Wells Fargo"],"coords":[41.5725,-93.6105]}},
+{"location":"Bloomington, MN","data":
+{"jobs":35,"companies":["Cigna Group","Donaldson Company","General Dynamics Mission Systems","IDeaS","Seagate Technology","The Toro Company","Trane Technologies"],"coords":[44.8306,-93.3151]}},
+{"location":"Waukegan, IL","data":
+{"jobs":33,"companies":["AbbVie","Abbott","Uline"],"coords":[42.3698,-87.8716]}},
+{"location":"Cincinnati, OH","data":
+{"jobs":32,"companies":["84.51 Degrees","Ernst & Young","Fifth Third Bank","Great American Insurance","Great American Insurance Company","Johnson & Johnson","Medpace, Inc.","P&G","P&G Careers","Procter & Gamble (P&G)","U.S. Bancorp","Western & Southern Financial Group"],"coords":[39.1413,-84.506]}},
+{"location":"Morrisville, NC","data":
+{"jobs":31,"companies":["ABB","Axon","Cadence Design Systems","Deutsche Bank","Epic Games","General Dynamics Mission Systems","JMP Statistical Discovery","Marvell","Rambus","SAS","ServiceNow","The Walt Disney Company"],"coords":[35.8368,-78.8348]}},
+{"location":"Huntsville, AL","data":
+{"jobs":31,"companies":["AeroVironment","Amentum","Booz Allen","Integration Innovation (i3)","KBR","L3Harris Technologies","Leidos","Northrop Grumman","Parsons","RTX","The Boeing Company","Vertiv"],"coords":[34.6981,-86.6412]}},
+{"location":"Irving, TX","data":
+{"jobs":30,"companies":["7-Eleven","Accenture","Citi","GM financial","Gartner","Heidelberg Materials","Johnson & Johnson","McKesson","Michaels Stores","Verizon Communications","Vistra","Vizient"],"coords":[32.8583,-96.9702]}},
+{"location":"McLean, VA","data":
+{"jobs":30,"companies":["Appian","Attain Partners","Booz Allen","Capital One","Ernst & Young","Freddie Mac","Guidehouse","Iridium Communications","Leidos","United Parcel Service (UPS)"],"coords":[38.9436,-77.1943]}},
+{"location":"Miami, FL","data":
+{"jobs":29,"companies":["Barry's","Blackrock","Circle","Citadel","Citadel Securities","Ernst & Young","Fidelity Investments","Gannet Fleming","Johnson & Johnson","Lennar Corporation","NBCUniversal","NextEra Energy","PricewaterhouseCoopers (PwC)","Quantbot Technologies","Trillium","VetsEZ","Walleye Capital","World Kinect"],"coords":[25.784,-80.2101]}},
+{"location":"California","data":
+{"jobs":28,"companies":["AbbVie","Banner Health","Block","Centene","Clorox","FMC Corporation","Fehr & Peers","Franklin Templeton","Highmark Health","Micron Technology","NVIDIA","Vanasse Hangen Brustlin (VHB)"],"coords":[-23.65,-51.355]}},
+{"location":"Iowa","data":
+{"jobs":28,"companies":["Centene","Corteva","EMC Insurance","Emerson Electric","Highmark Health","Lennox International","Motorola","RTX","Zurich Insurance"]}},
+{"location":"Morton Grove, IL","data":
+{"jobs":28,"companies":["Marmon Holdings","Shure","Uline"],"coords":[42.0423,-87.789]}},
+{"location":"Schenectady, NY","data":
+{"jobs":26,"companies":["GE Aerospace","GE Vernova","Jahnel Group","Momentive"],"coords":[42.8025,-73.9275]}},
+{"location":"Greensboro, NC","data":
+{"jobs":26,"companies":["APEX Analytix","Arch Capital Group","Cirrus Logic","Kontoor Brands","Qorvo","VF"],"coords":[36.0956,-79.8271]}},
+{"location":"El Segundo, CA","data":
+{"jobs":25,"companies":["DIRECTV","Impulse Space","Northrop Grumman","RTX","Radiant","SIFT","Sift","Skyryse","The Aerospace Corporation","Varda","Varda Space","Varda Space Industries"],"coords":[33.917,-118.4018]}},
+{"location":"Arlington, VA","data":
+{"jobs":25,"companies":["Accenture","AeroVironment","Amazon","CACI","CoStar Group","Deloitte","Grant Thornton","Guidehouse","HNTB","Kitware","Leidos","MAXISIQ","RTX","The Boeing Company","Two Six Technologies","United Parcel Service (UPS)"],"coords":[38.8786,-77.1011]}},
+{"location":"Needham, MA","data":
+{"jobs":25,"companies":["CVS Health","HPR (Hyannis Port Research)","NBCUniversal","SharkNinja","Sun Life","Warner Bros."],"coords":[42.2814,-71.2411]}},
+{"location":"Plano, TX","data":
+{"jobs":25,"companies":["AT&T","Capital One","Cinemark Theatres","Fannie Mae","JP Morgan Chase","L3Harris Technologies","NTT Data","Sierra Nevada Coporation","Sierra Nevada Corporation","The Boeing Company","USAA"],"coords":[33.0502,-96.7486]}},
+{"location":"Columbus, OH","data":
+{"jobs":25,"companies":["Chase","Chubb","Citizens Financial Group","HNTB","Hartford Financial Services","Huntington Bancshares","Immuta","JP Morgan Chase","Nationwide","NiSource","WSP","Western Alliance","WillowTree"],"coords":[39.9862,-82.9855]}},
+{"location":"Colorado Springs, CO","data":
+{"jobs":24,"companies":["Bluestaq","Booz Allen","Compassion International","General Dynamics Mission Systems","Keysight Technologies","L3Harris Technologies","RTX","The Aerospace Corporation","The Boeing Company"],"coords":[38.8674,-104.7605]}},
+{"location":"Richmond, VA","data":
+{"jobs":23,"companies":["2nd Order Solutions","CapTech Consulting","Capital One","CareBridge","CoStar Group","Dominion Energy","Genworth","Genworth Financial","Haleon","International Mission Board","Markel Group, Inc.","The Federal Reserve System","Thermo Fisher Scientific","Timmons Group"],"coords":[37.5295,-77.4756]}},
+{"location":"Jacksonville, FL","data":
+{"jobs":23,"companies":["CSX","Dun & Bradstreet","Ernst & Young","Geico","GuideWell Mutual","Intercontinental Exchange","Johnson & Johnson","Medtronic","RF-SMART","Wabtec"],"coords":[30.3322,-81.6749]}},
+{"location":"Indianapolis, IN","data":
+{"jobs":23,"companies":["Allegion","Allison Transmission","CareBridge","Corteva Agriscience","Crowe","Federal Home Loan Bank of Indianapolis","Geico","HNTB","KSM","Keystone Cooperative","R&D Computer Science/Data Science Intern","RTX","Roche","Rolls Royce","Simon","Thermo Fisher Scientific","Viavi Solutions"],"coords":[39.7771,-86.1458]}},
+{"location":"Detroit, MI","data":
+{"jobs":22,"companies":["AF Group","AlixPartners","Blue Cross Blue Shield of Michigan","Deloitte","Detroit Lions","Emergent Holdings","Ernst & Young","GM financial","HNTB","Little Caesars Enterprises","Rocket Companies","Rocket Mortgage","The Federal Reserve System","WSP"],"coords":[42.3834,-83.1024]}},
+{"location":"Ardmore, PA","data":
+{"jobs":22,"companies":["Susquehanna International Group (SIG)"],"coords":[40.0033,-75.2947]}},
+{"location":"Pennsylvania","data":
+{"jobs":22,"companies":["CAI","Highmark Health","Merck","Vertex"]}},
+{"location":"Cambridge, UK","data":
+{"jobs":22,"companies":["Apple","GE Vernova","Gearset","Microchip Technology","Microsoft","Momentive","Nutanix","PA Consulting","Qualcomm","Tranzact","Vertiv"]}},
+{"location":"Hillsboro, OR","data":
+{"jobs":22,"companies":["ASML","Intel","Qorvo","Skyworks","Thermo Fisher Scientific"],"coords":[45.5273,-122.936]}},
+{"location":"Newport Beach, CA","data":
+{"jobs":21,"companies":["Anduril","Blackrock","Experian","Grant Thornton","PIMCO","Pacific Life","VF"],"coords":[33.6151,-117.8668]}},
+{"location":"Boulder, CO","data":
+{"jobs":21,"companies":["Emerson Electric","Ethereum Foundation","Google","Guidehouse","Northrop Grumman","Qualcomm","SciTec","University Corporation for Atmospheric Research","Veolia","Viget"],"coords":[40.0248,-105.2524]}},
+{"location":"Durham, NC","data":
+{"jobs":21,"companies":["AstraZeneca","Beam Therapeutics","CoVar","Fidelity Investments","Google","IBM","LabCorp","Labcorp","Nutanix","Tanium","Thermo Fisher Scientific","WillowTree"],"coords":[35.9792,-78.9022]}},
+{"location":"Melbourne, FL","data":
+{"jobs":21,"companies":["AeroVironment","CACI","ENSCO","L3Harris Technologies","Northrop Grumman","RTX","Wabtec"],"coords":[28.1086,-80.6627]}},
+{"location":"Salt Lake City, UT","data":
+{"jobs":20,"companies":["AECOM","Fidelity Investments","GE Healthcare","Goldman Sachs","Lucid","MasterControl","Stryker","The Federal Reserve System","WGU","Williams"],"coords":[40.7776,-111.9311]}},
+{"location":"Washington","data":
+{"jobs":20,"companies":["Blue Origin","Centene","FMC Corporation","Highmark Health","Weyerhaeuser"],"coords":[54.9,-1.52]}},
+{"location":"Illinois","data":
+{"jobs":20,"companies":["Allstate Insurance Company","Highmark Health","Motorola"]}},
+{"location":"Hartford, CT","data":
+{"jobs":19,"companies":["CVS Health","Empower","Hartford Financial Services","RTX","The Travelers Companies"],"coords":[41.7661,-72.6834]}},
+{"location":"Shakopee, MN","data":
+{"jobs":19,"companies":["CommScope","Emerson Electric","Entrust","Seagate Technology"],"coords":[44.7745,-93.4772]}},
+{"location":"Berkeley Heights, NJ","data":
+{"jobs":19,"companies":["Fiserv","Nokia","Verizon Communications"],"coords":[40.6764,-74.4244]}},
+{"location":"Portland, OR","data":
+{"jobs":19,"companies":["Autodesk","Block","CDK","Daimler Truck","Google","JP Morgan Chase","KEEN Footwear","Mercury"],"coords":[45.5371,-122.65]}},
+{"location":"Florida","data":
+{"jobs":19,"companies":["Blue Origin","Centene","Highmark Health"],"coords":[21.5294,-78.2228]}},
+{"location":"Rochester, NY","data":
+{"jobs":19,"companies":["Constellation Brands","GE Vernova","IBM","Iberdrola Group","L3Harris Technologies","MKS Instruments","Safran","Thomson Reuters"],"coords":[43.168,-77.6162]}},
+{"location":"Quincy, MA","data":
+{"jobs":19,"companies":["Santander","Santander Global Facilities (SGF) US - Santander Group","State Street"],"coords":[42.2506,-71.0187]}},
+{"location":"Princeton, NJ","data":
+{"jobs":19,"companies":["Blackrock","Bristol Myers Squibb","Genmab","Kyowa Kirin","Kyowa Kirin North America","SciTec","State Street","Trimble"],"coords":[40.3562,-74.6693]}},
+{"location":"Mt Laurel Township, NJ","data":
+{"jobs":18,"companies":["Comcast","Geico","Innovative Defense Technologies","TD Bank","TD Securities"]}},
+{"location":"Kansas","data":
+{"jobs":18,"companies":["Centene","Highmark Health","Motorola"]}},
+{"location":"Wyoming","data":
+{"jobs":18,"companies":["Banner Health","Centene","Highmark Health"]}},
+{"location":"Waterbury, CT","data":
+{"jobs":18,"companies":["Highmark Health","RTX"],"coords":[41.5582,-73.0361]}},
+{"location":"Nevada","data":
+{"jobs":18,"companies":["Banner Health","Centene","Highmark Health"]}},
+{"location":"Rhode Island","data":
+{"jobs":18,"companies":["General Dynamics","Highmark Health","Sony"]}},
+{"location":"Delaware","data":
+{"jobs":18,"companies":["Chase","Highmark Health","Vertiv"]}},
+{"location":"Alpharetta, GA","data":
+{"jobs":18,"companies":["ABB","AT&T","Caterpillar Inc.","Equifax","Hewlett Packard Enterprise","LexisNexis Risk Solutions","United Parcel Service (UPS)","Veeam Software","Verizon Communications"],"coords":[34.0704,-84.2738]}},
+{"location":"Roseville, MN","data":
+{"jobs":18,"companies":["Boston Scientific","Land O'Lakes"],"coords":[45.0155,-93.1545]}},
+{"location":"Waltham, MA","data":
+{"jobs":17,"companies":["Adobe","Evolve Technology","Global Partners","Motorola","Pega","Sanofi","Thermo Fisher Scientific"],"coords":[42.3889,-71.2423]}},
+{"location":"Missouri","data":
+{"jobs":17,"companies":["Centene","Highmark Health"]}},
+{"location":"Phoenix, AZ","data":
+{"jobs":17,"companies":["American Express","Arizona Public Service","Blue Cross Blue Shield of Arizona","Circle","Cirrus Logic","Grant Thornton","Marsh & McLennan","Rockwell Automation","TSMC","Wells Fargo","Western Alliance"],"coords":[33.5722,-112.0892]}},
+{"location":"Northbrook, IL","data":
+{"jobs":17,"companies":["Allstate Insurance Company","CVS Health","Medline"],"coords":[42.1292,-87.8352]}},
+{"location":"San Carlos, CA","data":
+{"jobs":17,"companies":["AstraZeneca","C3.ai","Electronic Arts","Garage","Moloco","NimbleRx","Oracle"],"coords":[37.4982,-122.2677]}},
+{"location":"New Mexico","data":
+{"jobs":17,"companies":["Centene","Highmark Health"]}},
+{"location":"Texas","data":
+{"jobs":17,"companies":["Blue Origin","Centene","Highmark Health"]}},
+{"location":"South Dakota","data":
+{"jobs":17,"companies":["Centene","Highmark Health"]}},
+{"location":"North Carolina","data":
+{"jobs":17,"companies":["FMC Corporation","Highmark Health"]}},
+{"location":"Colorado","data":
+{"jobs":17,"companies":["Banner Health","Blue Origin","Centene","Highmark Health","Wilbur-Ellis"],"coords":[-22.8378,-51.9728]}},
+{"location":"Omaha, NE","data":
+{"jobs":16,"companies":["Axos Bank","Berkshire Hathaway Energy","BlueCross BlueShield of Nebraska","CACI","Conagra Brands","FNBO","GE Appliances","Leidos","National Indemnity Company","Tidal Financial Group","Workshop"],"coords":[41.2627,-96.0529]}},
+{"location":"Tampa, FL","data":
+{"jobs":16,"companies":["Bristol Myers Squibb","CAE","Citi","DTCC","Daikin Applied","HNTB","Iron Mountain","JP Morgan Chase","Mosaic","PricewaterhouseCoopers (PwC)","Prudential Financial"],"coords":[27.9945,-82.4447]}},
+{"location":"Plantation, FL","data":
+{"jobs":16,"companies":["AeroVironment","American Express","Entrust","L3Harris Technologies","Motorola"],"coords":[26.1259,-80.2617]}},
+{"location":"Lake Grove, NY","data":
+{"jobs":16,"companies":["Shure","Zebra Technologies"],"coords":[40.8586,-73.1168]}},
+{"location":"South Carolina","data":
+{"jobs":16,"companies":["FMC Corporation","Highmark Health","Rolls Royce"]}},
+{"location":"Concord, NH","data":
+{"jobs":16,"companies":["Highmark Health"],"coords":[43.2305,-71.5595]}},
+{"location":"Tennessee","data":
+{"jobs":16,"companies":["Highmark Health"]}},
+{"location":"Kentucky","data":
+{"jobs":16,"companies":["Highmark Health"]}},
+{"location":"West Virginia","data":
+{"jobs":16,"companies":["Highmark Health"]}},
+{"location":"Alabama","data":
+{"jobs":16,"companies":["Highmark Health"]}},
+{"location":"Georgia","data":
+{"jobs":16,"companies":["Highmark Health","Mohawk","Motorola","Veeam Software"]}},
+{"location":"Arizona","data":
+{"jobs":16,"companies":["CSAA Insurance Group","Centene","Highmark Health"]}},
+{"location":"Utah","data":
+{"jobs":16,"companies":["Centene","Highmark Health","Motorola","NRG Energy"]}},
+{"location":"Michigan","data":
+{"jobs":16,"companies":["CMS Energy","Cleveland-Cliffs","Highmark Health","Motorola","Rocket Companies"]}},
+{"location":"Orlando, FL","data":
+{"jobs":15,"companies":["Comcast","Electronic Arts","L3Harris Technologies","Oshkosh","ServiceNow","Stantec","The Walt Disney Company","cencora"],"coords":[28.4773,-81.337]}},
+{"location":"Santa Rosa, CA","data":
+{"jobs":15,"companies":["Keysight Technologies","Medtronic"],"coords":[38.4458,-122.7067]}},
+{"location":"Santa Monica, CA","data":
+{"jobs":15,"companies":["AMC Networks","Activision-Blizzard","Blackrock","Edison International","The Walt Disney Company","ZipRecruiter"],"coords":[34.0235,-118.481]}},
+{"location":"Hoffman Estates, IL","data":
+{"jobs":15,"companies":["CDK Global","Motorola","Varian","Zurich Insurance"],"coords":[42.064,-88.1468]}},
+{"location":"Jackson Township, NJ","data":
+{"jobs":15,"companies":["Cencora","Highmark Health"]}},
+{"location":"Virginia","data":
+{"jobs":15,"companies":["Highmark Health","Motorola","Navy Federal"],"coords":[-28.1064,26.8622]}},
+{"location":"Wisconsin","data":
+{"jobs":15,"companies":["Alliance Laundry Systems","Highmark Health","Motorola"]}},
+{"location":"Providence, RI","data":
+{"jobs":15,"companies":["Citizens Financial Group","FM Global","Zebra Technologies"],"coords":[41.823,-71.4187]}},
+{"location":"Norridge, IL","data":
+{"jobs":15,"companies":["PricewaterhouseCoopers (PwC)"],"coords":[41.9637,-87.8231]}},
+{"location":"Vienna, VA","data":
+{"jobs":14,"companies":["CACI","NT Concepts","Navy Federal"],"coords":[38.8996,-77.2597]}},
+{"location":"Scottsdale, AZ","data":
+{"jobs":14,"companies":["Allstate Insurance Company","CVS Health","General Dynamics Mission Systems","Nationwide","Nextiva","onsemi"],"coords":[33.6872,-111.8651]}},
+{"location":"North Dakota","data":
+{"jobs":14,"companies":["Centene","Highmark Health"]}},
+{"location":"Massachusetts","data":
+{"jobs":14,"companies":["Highmark Health","RTX"]}},
+{"location":"Oklahoma","data":
+{"jobs":14,"companies":["Centene","Highmark Health"]}},
+{"location":"Alaska","data":
+{"jobs":14,"companies":["Centene","Highmark Health"]}},
+{"location":"St. Louis, MO","data":
+{"jobs":14,"companies":["Ameren","Anheuser-Busch","Barry-Wehmiller","Block","Cigna Group","Exegy","Stifel","The Boeing Company","The Federal Reserve System","Veterans United"],"coords":[38.6359,-90.2451]}},
+{"location":"Boise, ID","data":
+{"jobs":14,"companies":["Equifax","Hoffman Construction","Micron Technology"],"coords":[43.6005,-116.2308]}},
+{"location":"Tucson, AZ","data":
+{"jobs":14,"companies":["Geico","IBM","RTX","Roche"],"coords":[32.1541,-110.8787]}},
+{"location":"Pensacola, FL","data":
+{"jobs":13,"companies":["Navy Federal"],"coords":[30.4413,-87.1911]}},
+{"location":"Lone Tree, CO","data":
+{"jobs":13,"companies":["Charles Schwab","Sierra Nevada Coporation"],"coords":[39.5309,-104.8709]}},
+{"location":"Milpitas, CA","data":
+{"jobs":13,"companies":["Corsair","Hewlett Packard Enterprise","KLA","KLA Corporation","MKS Instruments","Sandisk"],"coords":[37.4336,-121.8921]}},
+{"location":"Long Beach, CA","data":
+{"jobs":13,"companies":["Blue Shield of California","Relativity Space","Rocket Lab USA","The Boeing Company","VAST"],"coords":[33.7977,-118.167]}},
+{"location":"Vermont","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Mississippi","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Arkansas","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Maryland","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Hawaii","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Maine","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Ohio","data":
+{"jobs":13,"companies":["Highmark Health","Vertiv","Vistra"]}},
+{"location":"Louisiana","data":
+{"jobs":13,"companies":["Highmark Health"]}},
+{"location":"Annapolis Junction, MD","data":
+{"jobs":13,"companies":["AeroVironment","Booz Allen","Northrop Grumman","RTX","Thermo Fisher Scientific","Thorlabs"]}},
+{"location":"Cleveland, OH","data":
+{"jobs":12,"companies":["Ernst & Young","HNTB","KeyBank","OATEY","Philips","Sherwin-Williams","The Federal Reserve System"],"coords":[41.4764,-81.6805]}},
+{"location":"Conshohocken, PA","data":
+{"jobs":12,"companies":["Cencora","Cerity Partners","cencora"],"coords":[40.0772,-75.3034]}},
+{"location":"Kansas City, MO","data":
+{"jobs":12,"companies":["American Century Investments","Cboe","Commerce Bank","HNTB","Hearst","Sun Life"],"coords":[39.1238,-94.5541]}},
+{"location":"San Antonio, TX","data":
+{"jobs":12,"companies":["Arctic Wolf","Crowdstrike","Darkhive","Guidehouse","Northrop Grumman","SWBC","TD Synnex","The Boeing Company","USAA"],"coords":[29.4632,-98.5238]}},
+{"location":"Glendale, CA","data":
+{"jobs":12,"companies":["Disney","The Walt Disney Company"],"coords":[34.1819,-118.2468]}},
+{"location":"Parsippany-Troy Hills, NJ","data":
+{"jobs":12,"companies":["Avis Budget Group","Barclays","United Parcel Service (UPS)","Zoetis"],"coords":[40.8601,-74.4237]}},
+{"location":"Arlington, TX","data":
+{"jobs":12,"companies":["CAE","GM financial"],"coords":[32.6998,-97.125]}},
+{"location":"Round Rock, TX","data":
+{"jobs":12,"companies":["Dell Technologies","Emerson Electric"],"coords":[30.527,-97.6642]}},
+{"location":"Dayton, OH","data":
+{"jobs":12,"companies":["AeroVironment","Dayton Freight Lines","NextGen Federal Systems","SCS Engineers","Sierra Nevada Coporation","Sierra Nevada Corporation","Trimble"],"coords":[39.7805,-84.2003]}},
+{"location":"Pleasanton, CA","data":
+{"jobs":12,"companies":["AbbVie","Blackhawk Network Holdings","Oracle","Thermo Fisher Scientific","Workday"],"coords":[37.6663,-121.8805]}},
+{"location":"Fort Worth, TX","data":
+{"jobs":12,"companies":["Alcon","BAE Systems","Caterpillar Inc.","GM financial","Medtronic","Wabtec"],"coords":[32.7817,-97.3474]}},
+{"location":"Oregon","data":
+{"jobs":12,"companies":["Centene","Highmark Health"]}},
+{"location":"Nebraska","data":
+{"jobs":12,"companies":["Banner Health","Highmark Health"]}},
+{"location":"Warren, MI","data":
+{"jobs":12,"companies":["General Motors"],"coords":[42.4934,-83.027]}},
+{"location":"Pleasant Prairie, WI","data":
+{"jobs":12,"companies":["Uline"],"coords":[42.5266,-87.8895]}},
+{"location":"Vernon Hills, IL","data":
+{"jobs":12,"companies":["AbbVie","Camping World","Robert Bosch Venture Capital","Takeda","Zebra Technologies"],"coords":[42.234,-87.9608]}},
+{"location":"Neenah, WI","data":
+{"jobs":12,"companies":["Faith Technologies","Menasha Corporation","Plexus"],"coords":[44.1669,-88.4767]}},
+{"location":"Greenville, SC","data":
+{"jobs":12,"companies":["GE Vernova","TD Bank","TD Synnex"],"coords":[34.8354,-82.3646]}},
+{"location":"Oklahoma City, OK","data":
+{"jobs":11,"companies":["American Fidelity","CACI","Continental Resources","Devon Energy","Diamondback Energy","Northrop Grumman","The Boeing Company"],"coords":[35.4676,-97.5136]}},
+{"location":"Andover, MA","data":
+{"jobs":11,"companies":["Fresenius Medical Care","Hewlett Packard Enterprise","MKS Instruments","RTX","Reframe Systems"],"coords":[42.6466,-71.1651]}},
+{"location":"Bethesda, MD","data":
+{"jobs":11,"companies":["Geico","Howard Hughes Medical Institute (HHMI)","Leidos"],"coords":[38.9866,-77.1188]}},
+{"location":"Newark, CA","data":
+{"jobs":11,"companies":["Lucid Motors"],"coords":[37.5201,-122.0307]}},
+{"location":"Indiana","data":
+{"jobs":11,"companies":["Highmark Health"]}},
+{"location":"Morristown, NJ","data":
+{"jobs":11,"companies":["Accenture","Atlantic Health System","Cigna Group","Crum & Forster Insurance","Siemens","WSP"],"coords":[40.7967,-74.4772]}},
+{"location":"Oshkosh, WI","data":
+{"jobs":11,"companies":["Brunswick","Oshkosh"],"coords":[44.0227,-88.5619]}},
+{"location":"Folsom, CA","data":
+{"jobs":11,"companies":["Intel","Micron Technology","Sierra Nevada Coporation"],"coords":[38.6668,-121.1422]}},
+{"location":"Rochester, MN","data":
+{"jobs":11,"companies":["Compeer Financial","Hormel Foods","Oshkosh","Western Digital"],"coords":[44.0154,-92.478]}},
+{"location":"Edison, NJ","data":
+{"jobs":11,"companies":["AtkinsRéalis","Bristol Myers Squibb","C&S Wholesale Grocers","Johnson & Johnson","Public Service Enterprise Group"],"coords":[40.536,-74.3697]}},
+{"location":"Manassas, VA","data":
+{"jobs":10,"companies":["BerkleyNet","CACI","General Dynamics Mission Systems","Micron Technology","W.R. Berkley"],"coords":[38.7479,-77.4838]}},
+{"location":"Carmel, IN","data":
+{"jobs":10,"companies":["Allegion","HNTB","Merchants Bank of Indiana","SEP","The MJ Companies"],"coords":[39.965,-86.146]}},
+{"location":"State College, PA","data":
+{"jobs":10,"companies":["AccuWeather","KCF Technologies","PennState University","Philips","RTX"],"coords":[40.7909,-77.8567]}},
+{"location":"Elk Grove Village, IL","data":
+{"jobs":10,"companies":["Al Warren Oil Company"],"coords":[42.0064,-87.9921]}},
+{"location":"Naperville, IL","data":
+{"jobs":10,"companies":["Ecolab","Nokia"],"coords":[41.748,-88.1659]}},
+{"location":"New Albany, OH","data":
+{"jobs":10,"companies":["Vertiv"],"coords":[40.0809,-82.7848]}},
+{"location":"Louisville, KY","data":
+{"jobs":10,"companies":["Baird","Diversified Automation","GE Appliances","United Parcel Service (UPS)","Waystar"],"coords":[38.1663,-85.6485]}},
+{"location":"Fort Wayne, IN","data":
+{"jobs":10,"companies":["DMA","L3Harris Technologies","Michelin","Momentive","OmniSource","RTX","Steel Dynamics","Stryker"],"coords":[41.0888,-85.1436]}},
+{"location":"Sparks, NV","data":
+{"jobs":10,"companies":["Panasonic Avionics","Sierra Nevada Coporation"],"coords":[39.5736,-119.7161]}},
+{"location":"Charleston, SC","data":
+{"jobs":10,"companies":["Booz Allen","Brookfield Properties","Marquee Insurance Group","Sonepar","The Boeing Company"],"coords":[32.8168,-79.9687]}},
+{"location":"Ann Arbor, MI","data":
+{"jobs":10,"companies":["Censys","KLA","Medtronic","Nokia"],"coords":[42.2759,-83.731]}},
+{"location":"Marlborough, MA","data":
+{"jobs":9,"companies":["Hologic","RTX","Sikich","TJX"],"coords":[42.3494,-71.5468]}},
+{"location":"Bentonville, AR","data":
+{"jobs":9,"companies":["Lennar Corporation","Walmart"],"coords":[36.3547,-94.2305]}},
+{"location":"Montana","data":
+{"jobs":9,"companies":["Centene","Highmark Health","Motorola"],"coords":[43.4086,23.2257]}},
+{"location":"East Lansing, MI","data":
+{"jobs":9,"companies":["Auto-Owners Insurance","Delta Dental","HNTB"],"coords":[42.748,-84.4836]}},
+{"location":"Boca Raton, FL","data":
+{"jobs":9,"companies":["ADT","Modernizing Medicine"],"coords":[26.3752,-80.108]}},
+{"location":"Southfield, MI","data":
+{"jobs":9,"companies":["AlixPartners","Corewell Health","Grant Thornton","Nissan Global","Plante Moran","Robert Bosch Venture Capital"],"coords":[42.4765,-83.2605]}},
+{"location":"Carson, CA","data":
+{"jobs":9,"companies":["Arc","Divergent Technologies","Garrett Motion","Moog","Northwood Space"],"coords":[33.8374,-118.2559]}},
+{"location":"Longmont, CO","data":
+{"jobs":9,"companies":["Auto-Owners Insurance","Micron Technology","Seagate Technology"],"coords":[40.1686,-105.1005]}},
+{"location":"Bismarck, ND","data":
+{"jobs":9,"companies":["National Information Solutions Cooperative","National Information Solutions Cooperative (NISC)"],"coords":[46.8143,-100.7694]}},
+{"location":"Lake St Louis, MO","data":
+{"jobs":9,"companies":["National Information Solutions Cooperative","National Information Solutions Cooperative (NISC)"]}},
+{"location":"Coralville, IA","data":
+{"jobs":9,"companies":["Citizens Financial Group","Geico","RTX"],"coords":[41.699,-91.5967]}},
+{"location":"Spring, TX","data":
+{"jobs":9,"companies":["American Bureau of Shipping","Hewlett Packard (HP)","Hewlett Packard Enterprise"],"coords":[30.0613,-95.383]}},
+{"location":"Nashville, TN","data":
+{"jobs":8,"companies":["AllianceBernstein","L3Harris Technologies","LKQ","Oracle","Western Governors University"],"coords":[36.1715,-86.7842]}},
+{"location":"Burlington, MA","data":
+{"jobs":8,"companies":["Analog Devices","L3Harris Technologies","Locus Robotics","RTX","STR","Skyworks","Symbotic"],"coords":[42.5022,-71.2027]}},
+{"location":"Palm Beach Gardens, FL","data":
+{"jobs":8,"companies":["Johnson & Johnson","NextEra Energy"],"coords":[26.8466,-80.1679]}},
+{"location":"Malvern, PA","data":
+{"jobs":8,"companies":["Vanguard"]}},
+{"location":"Markham, IL","data":
+{"jobs":8,"companies":["Altom Transport","NiSource"],"coords":[41.6,-87.6904]}},
+{"location":"Oxford, UK","data":
+{"jobs":8,"companies":["Docusign","Rolls Royce","Sophos"]}},
+{"location":"Grand Rapids, MI","data":
+{"jobs":8,"companies":["Corewell Health","Dematic","HNTB","Lake Michigan Credit Union","Meijer","SWBC"],"coords":[42.9619,-85.6562]}},
+{"location":"Canoga Park, LA","data":
+{"jobs":8,"companies":["Activision-Blizzard","Blue Shield of California","Northrop Grumman"]}},
+{"location":"Oakland, CA","data":
+{"jobs":8,"companies":["Block","Blue Shield of California","Memphis Meats","Tanium"],"coords":[37.7904,-122.2166]}},
+{"location":"Golden, CO","data":
+{"jobs":8,"companies":["Allegion","Altice USA","Xcel Energy"],"coords":[39.7406,-105.2118]}},
+{"location":"Burbank, CA","data":
+{"jobs":8,"companies":["Deluxe Media","Paramount Global","The Walt Disney Company"],"coords":[34.1879,-118.3235]}},
+{"location":"Buffalo, NY","data":
+{"jobs":8,"companies":["M&T Bank","Moog","Motive","Northrop Grumman"],"coords":[42.9018,-78.8487]}},
+{"location":"Minnesota","data":
+{"jobs":8,"companies":["Highmark Health"]}},
+{"location":"Bridgewater Township, NJ","data":
+{"jobs":8,"companies":["Johnson & Johnson"]}},
+{"location":"Birmingham, UK","data":
+{"jobs":8,"companies":["Arch Capital Group","Autodesk","Electronic Arts","Moog","Rolls Royce"]}},
+{"location":"Farmington, CT","data":
+{"jobs":8,"companies":["Arch Capital Group","Legrand","Otis","Otis Worldwide","RTX","W.R. Berkley"]}},
+{"location":"Livingston, NJ","data":
+{"jobs":8,"companies":["AbbVie","CACI","Mondelez International"],"coords":[40.7855,-74.3291]}},
+{"location":"Blacksburg, VA","data":
+{"jobs":8,"companies":["Moog","Peraton"],"coords":[37.23,-80.4279]}},
+{"location":"Germantown, MD","data":
+{"jobs":8,"companies":["AeroVironment","DIRECTV","Viavi Solutions","Wabtec"],"coords":[39.1755,-77.2643]}},
+{"location":"Elmira, NY","data":
+{"jobs":8,"companies":["Corning"],"coords":[42.0938,-76.8097]}},
+{"location":"Western Springs, IL","data":
+{"jobs":7,"companies":["Ace Hardware","Chamberlain Group","Tidal Financial Group"],"coords":[41.8023,-87.9006]}},
+{"location":"West Chester, PA","data":
+{"jobs":7,"companies":["Caterpillar Inc.","Chatham Financial","Comcast","Johnson & Johnson"],"coords":[39.9601,-75.6058]}},
+{"location":"Albuquerque, NM","data":
+{"jobs":7,"companies":["AeroVironment","Nevada National Security","RESPEC","Space Dynamics Laboratory"],"coords":[35.1054,-106.6465]}},
+{"location":"Aurora, CO","data":
+{"jobs":7,"companies":["RTX"],"coords":[39.7083,-104.7237]}},
+{"location":"Chantilly, VA","data":
+{"jobs":7,"companies":["AnaVation LLC","CACI","L3Harris Technologies","The Aerospace Corporation"],"coords":[38.8868,-77.4453]}},
+{"location":"Framingham, MA","data":
+{"jobs":7,"companies":["Bloom Energy","Bose","ICF International","Sanofi"],"coords":[42.3085,-71.4368]}},
+{"location":"Tempe, AZ","data":
+{"jobs":7,"companies":["DriveTime","FOX","GoDaddy","Iridium Communications","Medtronic"],"coords":[33.3881,-111.9319]}},
+{"location":"Ashburn, VA","data":
+{"jobs":7,"companies":["CACI","Quality Technology Services","Verizon Communications","Visa"],"coords":[39.0277,-77.4714]}},
+{"location":"Memphis, TN","data":
+{"jobs":7,"companies":["ALSAC","Medtronic","Methodist Le Bonheur","St. Jude Children's Research Hospital"],"coords":[35.1087,-89.9663]}},
+{"location":"Belfast, UK","data":
+{"jobs":7,"companies":["CME Group","Gearset","Signifyd","Symphony","Visa"]}},
+{"location":"Birmingham, AL","data":
+{"jobs":7,"companies":["GPC","Genuine Parts Company","StoneX Group"],"coords":[33.5279,-86.7971]}},
+{"location":"West Des Moines, IA","data":
+{"jobs":7,"companies":["American Equity","Athene"],"coords":[41.5521,-93.7806]}},
+{"location":"Overland Park, KS","data":
+{"jobs":7,"companies":["Aechelon Technology","Netsmart","Quest Analytics","T-Mobile"],"coords":[38.887,-94.687]}},
+{"location":"Troy, MI","data":
+{"jobs":7,"companies":["Aptiv"],"coords":[42.5817,-83.1457]}},
+{"location":"Aldershot, UK","data":
+{"jobs":7,"companies":["L3Harris Technologies","Rolls Royce"]}},
+{"location":"Lowell, MA","data":
+{"jobs":7,"companies":["IBM","Rockwell Automation","Weston & Sampson","ZOLL Medical Corporation"],"coords":[42.6389,-71.3217]}},
+{"location":"Dulles, VA","data":
+{"jobs":7,"companies":["CACI","Northrop Grumman","RTX"]}},
+{"location":"Green Bay, WI","data":
+{"jobs":7,"companies":["HNTB","Schreiber Foods","U.S. Venture","WEC Energy Group"],"coords":[44.5148,-87.9895]}},
+{"location":"Wheeling, IL","data":
+{"jobs":7,"companies":["Plexus","Siemens","Zebra Technologies"],"coords":[42.1308,-87.924]}},
+{"location":"Hagerstown, MD","data":
+{"jobs":7,"companies":["Hitachi","Oshkosh","Sierra Nevada Coporation"],"coords":[39.6401,-77.7217]}},
+{"location":"Columbus, MS","data":
+{"jobs":7,"companies":["Steel Dynamics"],"coords":[33.5088,-88.4096]}},
+{"location":"Holmdel, NJ","data":
+{"jobs":7,"companies":["Guardian Life","Verisk"],"coords":[40.3768,-74.1725]}},
+{"location":"Malta, NY","data":
+{"jobs":7,"companies":["GlobalFoundries"],"coords":[42.9853,-73.7879]}},
+{"location":"North Wales, PA","data":
+{"jobs":7,"companies":["Inventing for Life","Merck"]}},
+{"location":"Linden, NJ","data":
+{"jobs":7,"companies":["Merck"],"coords":[40.6251,-74.2383]}},
+{"location":"Burlingame, CA","data":
+{"jobs":7,"companies":["Meta"],"coords":[37.5859,-122.3667]}},
+{"location":"Newark, NJ","data":
+{"jobs":6,"companies":["Broadridge","Prudential Financial","Public Service Enterprise Group","Thermo Fisher Scientific","United Parcel Service (UPS)"],"coords":[40.7245,-74.1725]}},
+{"location":"Jupiter, FL","data":
+{"jobs":6,"companies":["NextEra Energy","Voloridge","Voloridge Health"],"coords":[26.92,-80.1128]}},
+{"location":"Bothell, WA","data":
+{"jobs":6,"companies":["AT&T","Philips","Terex"],"coords":[47.7735,-122.2044]}},
+{"location":"Moscow, ID","data":
+{"jobs":6,"companies":["Schweitzer Engineering Laboratories"],"coords":[46.7308,-116.9986]}},
+{"location":"Centennial, CO","data":
+{"jobs":6,"companies":["Boom Supersonic","Chatham Financial","NBCUniversal","Nelnet","Vizient"],"coords":[39.5926,-104.8673]}},
+{"location":"Edinburgh, UK","data":
+{"jobs":6,"companies":["Adobe","Cirrus Logic","GE Vernova","Motorola","Robert Bosch Venture Capital"]}},
+{"location":"Farmers Branch, TX","data":
+{"jobs":6,"companies":["Aechelon Technology","Cencora","Lennox International"],"coords":[32.9272,-96.8804]}},
+{"location":"Auburn Hills, MI","data":
+{"jobs":6,"companies":["BorgWarner"],"coords":[42.6735,-83.2448]}},
+{"location":"Huntersville, NC","data":
+{"jobs":6,"companies":["Lowe's","Oshkosh","Trane Technologies"],"coords":[35.406,-80.8716]}},
+{"location":"Northwich, UK","data":
+{"jobs":6,"companies":["Barclays","Warner Bros."]}},
+{"location":"Wichita, KS","data":
+{"jobs":6,"companies":["Airbus","Blue Cross and Blue Shield of Kansas","Highmark Health","Sierra Nevada Coporation"],"coords":[37.6895,-97.3443]}},
+{"location":"Stamford, CT","data":
+{"jobs":6,"companies":["Castleton Commodities International","NBCUniversal","Nintendo","Synchrony Financial"],"coords":[41.1039,-73.5585]}},
+{"location":"Burlington, VT","data":
+{"jobs":6,"companies":["Beta Technologies","GlobalFoundries","NuHarbor Security"],"coords":[44.4876,-73.2316]}},
+{"location":"Manchester, UK","data":
+{"jobs":6,"companies":["BNY","Electronic Arts","RESPEC","Robert Bosch Venture Capital","The Bank of New York Mellon"]}},
+{"location":"Allen, TX","data":
+{"jobs":6,"companies":["Epiroc","Motorola"],"coords":[33.1088,-96.6735]}},
+{"location":"USA","data":
+{"jobs":6,"companies":["Elanco","Honeywell","Oracle","QuantCo"]}},
+{"location":"Glasgow, UK","data":
+{"jobs":6,"companies":["Barclays","Guardian Life","JP Morgan Chase","Meta"]}},
+{"location":"Broomfield, CO","data":
+{"jobs":6,"companies":["MKS Instruments","Quantinuum"],"coords":[39.9542,-105.0526]}},
+{"location":"Fort Mill, SC","data":
+{"jobs":6,"companies":["Continental","Daimler Truck","LPL Financial Holdings"],"coords":[35.0061,-80.9389]}},
+{"location":"Mayfield Heights, OH","data":
+{"jobs":6,"companies":["Rockwell Automation"],"coords":[41.5174,-81.4534]}},
+{"location":"Peoria, IL","data":
+{"jobs":6,"companies":["Caterpillar Inc.","RSM"],"coords":[40.752,-89.6154]}},
+{"location":"Honolulu, HI","data":
+{"jobs":6,"companies":["Booz Allen"],"coords":[21.3294,-157.846]}},
+{"location":"Rome, NY","data":
+{"jobs":6,"companies":["Booz Allen"],"coords":[43.226,-75.4909]}},
+{"location":"Panama City, FL","data":
+{"jobs":6,"companies":["Booz Allen"],"coords":[30.1995,-85.6003]}},
+{"location":"Orange, CA","data":
+{"jobs":6,"companies":["Edison International","Medtronic","cencora"],"coords":[33.8038,-117.8218]}},
+{"location":"Kirkland, WA","data":
+{"jobs":6,"companies":["Google","Paccar"],"coords":[47.697,-122.2057]}},
+{"location":"Suwanee, GA","data":
+{"jobs":6,"companies":["QTS","Quality Technology Services"],"coords":[34.0508,-84.0686]}},
+{"location":"Lexington, MA","data":
+{"jobs":6,"companies":["Fresenius Medical Care","Takeda"],"coords":[42.4456,-71.2307]}},
+{"location":"North Hollywood, LA","data":
+{"jobs":6,"companies":["NBCUniversal"]}},
+{"location":"Mason, OH","data":
+{"jobs":6,"companies":["CareBridge","Cintas","Procter & Gamble (P&G)"],"coords":[39.3571,-84.3023]}},
+{"location":"Deerfield Beach, FL","data":
+{"jobs":5,"companies":["JM Family"],"coords":[26.305,-80.1277]}},
+{"location":"Wayzata, MN","data":
+{"jobs":5,"companies":["Daikin Applied","Garda Capital Partners","Philips","Polaris","Stantec"]}},
+{"location":"Winchester, VA","data":
+{"jobs":5,"companies":["Navy Federal"],"coords":[39.1735,-78.1746]}},
+{"location":"Palmdale, CA","data":
+{"jobs":5,"companies":["Edison International","Northrop Grumman"],"coords":[34.5944,-118.1057]}},
+{"location":"Westminster, CO","data":
+{"jobs":5,"companies":["CACI","CesiumAstro","Motorola","Trimble"],"coords":[39.8837,-105.0624]}},
+{"location":"Celebration, FL","data":
+{"jobs":5,"companies":["The Walt Disney Company"],"coords":[28.3102,-81.551]}},
+{"location":"Peabody, MA","data":
+{"jobs":5,"companies":["Carrier Global","Cell Signaling Technology","Johnson & Johnson"],"coords":[42.5335,-70.9725]}},
+{"location":"Cupertino, CA","data":
+{"jobs":5,"companies":["Amazon","Gridmatic","Wind River"],"coords":[37.3168,-122.0466]}},
+{"location":"Seven Hills, OH","data":
+{"jobs":5,"companies":["Curtiss-Wright Corporation","Great American Insurance Company","Sherwin-Williams"],"coords":[41.3803,-81.6736]}},
+{"location":"Hopkins, MN","data":
+{"jobs":5,"companies":["Farallon Capital Management","Huntington Bancshares","Marsh","U.S. Bancorp","Xcel Energy"],"coords":[44.9259,-93.4056]}},
+{"location":"Manchester, NH","data":
+{"jobs":5,"companies":["BAE Systems","Eversource Energy"],"coords":[42.9848,-71.4447]}},
+{"location":"Everett, WA","data":
+{"jobs":5,"companies":["Fortive","The Boeing Company"],"coords":[47.9525,-122.1669]}},
+{"location":"Fort Lauderdale, FL","data":
+{"jobs":5,"companies":["Stryker","Vertiv"],"coords":[26.1412,-80.1464]}},
+{"location":"Lincoln, NE","data":
+{"jobs":5,"companies":["Hudl","Nelnet"],"coords":[40.8099,-96.6784]}},
+{"location":"Beavercreek, OH","data":
+{"jobs":5,"companies":["Awetomaton","KBR","Northrop Grumman","Radiance Technologies"],"coords":[39.731,-84.0624]}},
+{"location":"Crawley, UK","data":
+{"jobs":5,"companies":["Honeywell","Viridien"]}},
+{"location":"Eden Prairie, MN","data":
+{"jobs":5,"companies":["C.H. Robinson","Cambria","Emerson Electric"],"coords":[44.8488,-93.4595]}},
+{"location":"Novi, MI","data":
+{"jobs":5,"companies":["Autodesk","Daifuku"],"coords":[42.4786,-83.4893]}},
+{"location":"Downers Grove, IL","data":
+{"jobs":5,"companies":["CACI","HNTB","Sentinel Technologies","Zurn Elkay Water Solutions"],"coords":[41.7949,-88.0172]}},
+{"location":"Lehi, UT","data":
+{"jobs":5,"companies":["Adobe","Neighbor","nCino"],"coords":[40.4136,-111.8725]}},
+{"location":"Grimes, IA","data":
+{"jobs":5,"companies":["Chubb","Corteva","W.R. Berkley"],"coords":[41.6779,-93.7947]}},
+{"location":"Appleton, WI","data":
+{"jobs":5,"companies":["Oshkosh","U.S. Venture"],"coords":[44.278,-88.3892]}},
+{"location":"Niles, IL","data":
+{"jobs":5,"companies":["Shure"],"coords":[42.0278,-87.8099]}},
+{"location":"Roseville, CA","data":
+{"jobs":5,"companies":["Booz Allen","Hewlett Packard Enterprise","Western Digital"],"coords":[38.7703,-121.3196]}},
+{"location":"Columbia, SC","data":
+{"jobs":5,"companies":["Berkshire Hathaway Energy","Chubb","Dominion Energy","Lennox International"],"coords":[34.0378,-80.9036]}},
+{"location":"Fort Collins, CO","data":
+{"jobs":5,"companies":["Guidehouse","Hewlett Packard Enterprise","Rivos"],"coords":[40.5477,-105.0656]}},
+{"location":"Alhambra, CA","data":
+{"jobs":5,"companies":["Edison International"],"coords":[34.084,-118.1355]}},
+{"location":"Horsham, PA","data":
+{"jobs":5,"companies":["Johnson & Johnson"],"coords":[40.1993,-75.1665]}},
+{"location":"Acton, MA","data":
+{"jobs":5,"companies":["Cisco","Insulet Corporation"],"coords":[42.4843,-71.4378]}},
+{"location":"Brookings, SD","data":
+{"jobs":5,"companies":["Daktronics"],"coords":[44.3022,-96.7859]}},
+{"location":"Paterson, NJ","data":
+{"jobs":5,"companies":["L3Harris Technologies","Public Service Enterprise Group"],"coords":[40.9147,-74.1624]}},
+{"location":"Lynchburg, VA","data":
+{"jobs":5,"companies":["L3Harris Technologies"],"coords":[37.4003,-79.1909]}},
+{"location":"Erie, PA","data":
+{"jobs":5,"companies":["Erie Insurance Group","Wabtec"],"coords":[42.1167,-80.0733]}},
+{"location":"Wilmington, DE","data":
+{"jobs":5,"companies":["Alexion","AstraZeneca","CSC","Corteva","W.R. Berkley"],"coords":[39.7415,-75.5416]}},
+{"location":"Spartanburg, SC","data":
+{"jobs":5,"companies":["Align Communications","Rolls Royce"],"coords":[34.9442,-81.9251]}},
+{"location":"Denton, TX","data":
+{"jobs":5,"companies":["Paccar"],"coords":[33.2175,-97.1418]}},
+{"location":"Bloomington, IN","data":
+{"jobs":5,"companies":["Cook Group","Trane Technologies"],"coords":[39.1637,-86.5257]}},
+{"location":"Villanova, PA","data":
+{"jobs":4,"companies":["Stevens Capital Management","The Hartford","Wabtec","Wipfli"]}},
+{"location":"Oconomowoc, WI","data":
+{"jobs":4,"companies":["Highmark Health","Walker & Dunlop"],"coords":[43.0996,-88.4948]}},
+{"location":"Savannah, GA","data":
+{"jobs":4,"companies":["Gulfstream"],"coords":[32.0286,-81.1821]}},
+{"location":"Greenwich, CT","data":
+{"jobs":4,"companies":["AQR","AQR Capital Management","Citadel","Interactive Brokers"]}},
+{"location":"Berkeley, CA","data":
+{"jobs":4,"companies":["Eluvio","The Voleon Group"],"coords":[37.8722,-122.276]}},
+{"location":"Bala Cynwyd, PA","data":
+{"jobs":4,"companies":["Susquehanna"],"coords":[40.0116,-75.2283]}},
+{"location":"Carlsbad, CA","data":
+{"jobs":4,"companies":["Acushnet Holdings","Legrand NA","Thermo Fisher Scientific"],"coords":[33.1246,-117.2834]}},
+{"location":"Batavia, IL","data":
+{"jobs":4,"companies":["Fermilab"],"coords":[41.8479,-88.3109]}},
+{"location":"Wixom, MI","data":
+{"jobs":4,"companies":["Leidos","Oshkosh"],"coords":[42.5243,-83.5346]}},
+{"location":"Goleta, CA","data":
+{"jobs":4,"companies":["Google","RTX"],"coords":[34.4361,-119.8594]}},
+{"location":"Smithfield, RI","data":
+{"jobs":4,"companies":["CVS Health","Fidelity Investments"],"coords":[41.9014,-71.5308]}},
+{"location":"Anaheim, CA","data":
+{"jobs":4,"companies":["Edison International","L3Harris Technologies","RTX","The Walt Disney Company"],"coords":[33.839,-117.8574]}},
+{"location":"Rancho Cordova, CA","data":
+{"jobs":4,"companies":["Blue Shield of California","Solidigm"],"coords":[38.5737,-121.2527]}},
+{"location":"Nashua, NH","data":
+{"jobs":4,"companies":["BAE Systems"],"coords":[42.7491,-71.491]}},
+{"location":"Hudson, NH","data":
+{"jobs":4,"companies":["BAE Systems"],"coords":[42.7639,-71.4072]}},
+{"location":"Sharonville, OH","data":
+{"jobs":4,"companies":["GE Aerospace","HNTB","Procter & Gamble (P&G)"],"coords":[39.2825,-84.4071]}},
+{"location":"Brooklyn, OH","data":
+{"jobs":4,"companies":["KeyBank","KeyCorp","Motorola"],"coords":[41.4349,-81.7497]}},
+{"location":"Guildford, UK","data":
+{"jobs":4,"companies":["Electronic Arts","Waymo"]}},
+{"location":"Lenexa, KS","data":
+{"jobs":4,"companies":["Geico","RTX","Thermo Fisher Scientific","Veterans United"],"coords":[38.9609,-94.8018]}},
+{"location":"Duluth, GA","data":
+{"jobs":4,"companies":["QTS","Waystar"],"coords":[34.0053,-84.1492]}},
+{"location":"Kokomo, IN","data":
+{"jobs":4,"companies":["BorgWarner"],"coords":[40.464,-86.1277]}},
+{"location":"Simi Valley, CA","data":
+{"jobs":4,"companies":["AeroVironment","Peraton"],"coords":[34.2663,-118.749]}},
+{"location":"Hill AFB, UT","data":
+{"jobs":4,"companies":["Northrop Grumman"]}},
+{"location":"Pomona, CA","data":
+{"jobs":4,"companies":["Edison International","Envista"],"coords":[34.0585,-117.7626]}},
+{"location":"Portsmouth, UK","data":
+{"jobs":4,"companies":["Rolls Royce"]}},
+{"location":"Tualatin, OR","data":
+{"jobs":4,"companies":["RTX"],"coords":[45.3772,-122.7748]}},
+{"location":"Columbus, GA","data":
+{"jobs":4,"companies":["Aflac","Global Payments","TSYS"],"coords":[32.51,-84.8771]}},
+{"location":"Sarasota, FL","data":
+{"jobs":4,"companies":["CACI","Sarasota County"],"coords":[27.3387,-82.5432]}},
+{"location":"Fairfax, VA","data":
+{"jobs":4,"companies":["CACI","The Boeing Company"],"coords":[38.8531,-77.2997]}},
+{"location":"Sioux City, IA","data":
+{"jobs":4,"companies":["Berkshire Hathaway Energy","Wells Enterprises"],"coords":[42.4959,-96.3901]}},
+{"location":"Annapolis, MD","data":
+{"jobs":4,"companies":["RTX"],"coords":[38.9706,-76.5047]}},
+{"location":"Kennesaw, GA","data":
+{"jobs":4,"companies":["Carrier Global","Zebra Technologies"],"coords":[34.026,-84.6177]}},
+{"location":"Saline, MI","data":
+{"jobs":4,"companies":["Quantum Signal AI"],"coords":[42.174,-83.778]}},
+{"location":"La Vergne, TN","data":
+{"jobs":4,"companies":["Nissan","Nissan Global"],"coords":[36.02,-86.5586]}},
+{"location":"Groton, CT","data":
+{"jobs":4,"companies":["Dayton Freight Lines","General Dynamics"]}},
+{"location":"Holland, MI","data":
+{"jobs":4,"companies":["Hitachi Energy","MillerKnoll"],"coords":[42.7677,-86.0984]}},
+{"location":"Norwood, MA","data":
+{"jobs":4,"companies":["Citizens Financial Group","Moderna"],"coords":[42.1861,-71.1948]}},
+{"location":"Tulsa, OK","data":
+{"jobs":4,"companies":["Brunswick","L3Harris Technologies"],"coords":[36.1283,-95.9042]}},
+{"location":"Newton, IA","data":
+{"jobs":4,"companies":["Pella Corporation","Texas Instruments","Vermeer"],"coords":[41.6963,-93.0403]}},
+{"location":"Jackson, MI","data":
+{"jobs":4,"companies":["CMS Energy","HNTB"],"coords":[42.2431,-84.4038]}},
+{"location":"E Fowler Ave, Tampa, FL","data":
+{"jobs":4,"companies":["Verizon Communications"]}},
+{"location":"Petaluma, CA","data":
+{"jobs":4,"companies":["AeroVironment"],"coords":[38.2423,-122.6266]}},
+{"location":"Lawrence, KS","data":
+{"jobs":4,"companies":["AeroVironment","Bartlett & West"],"coords":[38.9597,-95.2642]}},
+{"location":"Fond du Lac, WI","data":
+{"jobs":4,"companies":["Brunswick"],"coords":[43.7718,-88.4397]}},
+{"location":"Beaverton, OR","data":
+{"jobs":4,"companies":["MKS Instruments","Nike"],"coords":[45.4779,-122.8168]}},
+{"location":"Mahwah, NJ","data":
+{"jobs":4,"companies":["Stryker","United Parcel Service (UPS)"],"coords":[41.0816,-74.1856]}},
+{"location":"Burnsville, MN","data":
+{"jobs":4,"companies":["RTX"],"coords":[44.7648,-93.2793]}},
+{"location":"Apopka, FL","data":
+{"jobs":4,"companies":["Northrop Grumman","Qorvo"],"coords":[28.7015,-81.5316]}},
+{"location":"Virginia Beach, VA","data":
+{"jobs":4,"companies":["Geico","HNTB","Procter & Gamble (P&G)"],"coords":[36.7335,-76.0435]}},
+{"location":"Research Triangle, Durham, NC","data":
+{"jobs":4,"companies":["Cisco"]}},
+{"location":"Sausalito, CA","data":
+{"jobs":4,"companies":["Blackrock","Meta"]}},
+{"location":"Wilton, CT","data":
+{"jobs":4,"companies":["ASML"]}},
+{"location":"Winona, MN","data":
+{"jobs":4,"companies":["Trane Technologies"],"coords":[44.0505,-91.6684]}},
+{"location":"Portage, MI","data":
+{"jobs":4,"companies":["RoviSys","Stryker"],"coords":[42.2,-85.5906]}},
+{"location":"Fremont, CA","data":
+{"jobs":4,"companies":["KLA","Neuralink","Seagate Technology","TetraMem"],"coords":[37.5265,-121.9843]}},
+{"location":"Cleburne, TX","data":
+{"jobs":4,"companies":["Vistra"],"coords":[32.3568,-97.4151]}},
+{"location":"Bedminster, NJ","data":
+{"jobs":4,"companies":["AT&T","Chubb"]}},
+{"location":"New Hope, PA","data":
+{"jobs":4,"companies":["Johnson & Johnson"]}},
+{"location":"Summit, NJ","data":
+{"jobs":4,"companies":["Bristol Myers Squibb","Charles River Associates (CRA)"],"coords":[40.7154,-74.3647]}},
+{"location":"Wilmington, NC","data":
+{"jobs":4,"companies":["GE Vernova","Live Oak Bank","Thermo Fisher Scientific"],"coords":[34.2099,-77.8866]}},
+{"location":"Thousand Oaks, CA","data":
+{"jobs":4,"companies":["RoviSys","Skyworks"],"coords":[34.1914,-118.8756]}},
+{"location":"Glen Allen, VA","data":
+{"jobs":4,"companies":["Dominion Energy","W.R. Berkley"],"coords":[37.666,-77.4838]}},
+{"location":"Brookfield, IL","data":
+{"jobs":4,"companies":["Ingredion"],"coords":[41.8245,-87.847]}},
+{"location":"Franklin, TN","data":
+{"jobs":4,"companies":["Nissan","Nissan Global"],"coords":[35.92,-86.8516]}},
+{"location":"Frisco, TX","data":
+{"jobs":3,"companies":["T-Mobile","Zebra Technologies"],"coords":[33.156,-96.8216]}},
+{"location":"Winston-Salem, NC","data":
+{"jobs":3,"companies":["Inmar Intelligence","Zurich Insurance"],"coords":[36.1029,-80.261]}},
+{"location":"Silver Spring, MD","data":
+{"jobs":3,"companies":["Capital Technology Group","KBR","United Therapeutics Corporation"],"coords":[39.0028,-77.0207]}},
+{"location":"Tewksbury, MA","data":
+{"jobs":3,"companies":["Leidos","RTX"],"coords":[42.612,-71.2278]}},
+{"location":"Baltimore, MD","data":
+{"jobs":3,"companies":["City of Baltimore","LabCorp","Northrop Grumman"],"coords":[39.3051,-76.6144]}},
+{"location":"St. Petersburg, FL","data":
+{"jobs":3,"companies":["Jabil","RTX"],"coords":[27.7931,-82.6652]}},
+{"location":"Syracuse, NY","data":
+{"jobs":3,"companies":["Carrier Global","Equitable Holdings"],"coords":[43.0407,-76.1437]}},
+{"location":"Los Gatos, CA","data":
+{"jobs":3,"companies":["Amazon","Badger Meter","Netflix"],"coords":[37.2304,-121.9562]}},
+{"location":"Woking, UK","data":
+{"jobs":3,"companies":["Danaher Corporation"]}},
+{"location":"Westport, CT","data":
+{"jobs":3,"companies":["FactSet","Graham Capital Management"]}},
+{"location":"Mesa, AZ","data":
+{"jobs":3,"companies":["Dexcom","Northrop Grumman","The Boeing Company"],"coords":[33.4015,-111.7178]}},
+{"location":"Staines-upon-Thames, UK","data":
+{"jobs":3,"companies":["Samsung","ServiceNow"]}},
+{"location":"Springfield, VA","data":
+{"jobs":3,"companies":["AltaGas","CACI","Geico"],"coords":[38.781,-77.1839]}},
+{"location":"Redding, CA","data":
+{"jobs":3,"companies":["Blue Shield of California"],"coords":[40.5698,-122.365]}},
+{"location":"Galt, CA","data":
+{"jobs":3,"companies":["Blue Shield of California"],"coords":[38.2698,-121.3004]}},
+{"location":"El Dorado Hills, CA","data":
+{"jobs":3,"companies":["Blue Shield of California"],"coords":[38.675,-121.049]}},
+{"location":"Halethorpe, MD","data":
+{"jobs":3,"companies":["Northrop Grumman"]}},
+{"location":"Radford, VA","data":
+{"jobs":3,"companies":["Northrop Grumman","Regal Rexnord"],"coords":[37.1229,-80.5587]}},
+{"location":"New York City, NY","data":
+{"jobs":3,"companies":["Accenture","Altice USA","NBCUniversal"]}},
+{"location":"Manitowoc, WI","data":
+{"jobs":3,"companies":["Rehiko"],"coords":[44.0991,-87.6812]}},
+{"location":"Canonsburg, PA","data":
+{"jobs":3,"companies":["General Dynamics Mission Systems"],"coords":[40.2643,-80.1867]}},
+{"location":"Largo, FL","data":
+{"jobs":3,"companies":["RTX"],"coords":[27.9088,-82.7712]}},
+{"location":"Portsmouth, NH","data":
+{"jobs":3,"companies":["Trimble","VF"],"coords":[43.058,-70.7826]}},
+{"location":"Huntington Beach, CA","data":
+{"jobs":3,"companies":["Layup Parts","Mach Industries","The Boeing Company"],"coords":[33.696,-118.0018]}},
+{"location":"Decatur, AL","data":
+{"jobs":3,"companies":["GE Appliances","Marmon Holdings"],"coords":[34.5731,-86.9905]}},
+{"location":"Dedham, MA","data":
+{"jobs":3,"companies":["General Dynamics Mission Systems"],"coords":[42.2467,-71.1777]}},
+{"location":"Independence, KS","data":
+{"jobs":3,"companies":["Highmark Health"]}},
+{"location":"Cunningham, KS","data":
+{"jobs":3,"companies":["Highmark Health"]}},
+{"location":"Joplin, MO","data":
+{"jobs":3,"companies":["Highmark Health"],"coords":[37.0757,-94.5018]}},
+{"location":"Edmond, OK","data":
+{"jobs":3,"companies":["Highmark Health"],"coords":[35.6689,-97.416]}},
+{"location":"Fort Gibson, OK","data":
+{"jobs":3,"companies":["Highmark Health"]}},
+{"location":"Bristol, CT","data":
+{"jobs":3,"companies":["The Walt Disney Company"],"coords":[41.6812,-72.9407]}},
+{"location":"Bartlesville, OK","data":
+{"jobs":3,"companies":["ABB","ConocoPhillips"],"coords":[36.7365,-95.9456]}},
+{"location":"Falls Church, VA","data":
+{"jobs":3,"companies":["BAE Systems","General Dynamics Information Technology"],"coords":[38.8847,-77.1751]}},
+{"location":"Cohoes, NY","data":
+{"jobs":3,"companies":["Momentive","Warner Bros."],"coords":[42.7732,-73.7077]}},
+{"location":"Chesterfield, MO","data":
+{"jobs":3,"companies":["Eaton Corporation","RGA Reinsurance Company"],"coords":[38.6589,-90.5803]}},
+{"location":"Norcross, GA","data":
+{"jobs":3,"companies":["Intuitive Surgical","SoloPulse","Wabtec"],"coords":[33.9379,-84.2065]}},
+{"location":"Johns Creek, GA","data":
+{"jobs":3,"companies":["Macy's","Rambus"],"coords":[34.0333,-84.2027]}},
+{"location":"Fall River, MA","data":
+{"jobs":3,"companies":["Innovative Defense Technologies","L3Harris Technologies"],"coords":[41.7136,-71.1015]}},
+{"location":"Corpus Christi, TX","data":
+{"jobs":3,"companies":["Flowserve","Steel Dynamics"],"coords":[27.7254,-97.3767]}},
+{"location":"Gaithersburg, MD","data":
+{"jobs":3,"companies":["AstraZeneca","Dow Jones"],"coords":[39.1346,-77.2131]}},
+{"location":"Eagan, MN","data":
+{"jobs":3,"companies":["Ecolab","Leidos"],"coords":[44.817,-93.1638]}},
+{"location":"Loveland, CO","data":
+{"jobs":3,"companies":["Keysight Technologies"],"coords":[40.4166,-105.0623]}},
+{"location":"Southern Pines, NC","data":
+{"jobs":3,"companies":["Sierra Nevada Coporation"],"coords":[35.1927,-79.4039]}},
+{"location":"Long Island, New York","data":
+{"jobs":3,"companies":["North Atlantic Industries"]}},
+{"location":"Topeka, KS","data":
+{"jobs":3,"companies":["Bartlett & West","Peraton"],"coords":[39.0346,-95.6955]}},
+{"location":"Sherman Oaks, LA","data":
+{"jobs":3,"companies":["Activision-Blizzard"]}},
+{"location":"Columbia, MD","data":
+{"jobs":3,"companies":["L3Harris Technologies","Parsons","University of Maryland Medical System"],"coords":[39.2004,-76.859]}},
+{"location":"The Woodlands, TX","data":
+{"jobs":3,"companies":["Huntsman","Ovintiv"],"coords":[30.1738,-95.5134]}},
+{"location":"Knoxville, TN","data":
+{"jobs":3,"companies":["Avertium","Trimble"],"coords":[35.9692,-83.9496]}},
+{"location":"Woodbury, MN","data":
+{"jobs":3,"companies":["3M"],"coords":[44.9057,-92.923]}},
+{"location":"Columbus, IN","data":
+{"jobs":3,"companies":["Cummins"],"coords":[39.2093,-85.9183]}},
+{"location":"Alexandria, VA","data":
+{"jobs":3,"companies":["Kearney&Co","Mobius Consulting","Sikich"],"coords":[38.8185,-77.0861]}},
+{"location":"Neukirchen-Vluyn, Germany","data":
+{"jobs":3,"companies":["Boston Consulting Group","Covestro","Honeywell"]}},
+{"location":"Middleton, WI","data":
+{"jobs":3,"companies":["Activision-Blizzard"],"coords":[43.1064,-89.5059]}},
+{"location":"Cape Canaveral, FL","data":
+{"jobs":3,"companies":["SpaceX","Stoke Space"],"coords":[28.3933,-80.6049]}},
+{"location":"West Athens, CA","data":
+{"jobs":3,"companies":["SpaceX"],"coords":[33.9235,-118.3033]}},
+{"location":"American Fork, UT","data":
+{"jobs":3,"companies":["Brevium","Domo"],"coords":[40.3783,-111.7953]}},
+{"location":"Sandy Springs, GA","data":
+{"jobs":3,"companies":["IBM","Veritiv Corporation"],"coords":[33.9366,-84.3703]}},
+{"location":"Olathe, KS","data":
+{"jobs":3,"companies":["Garmin","Merck"],"coords":[38.8833,-94.82]}},
+{"location":"Allentown, PA","data":
+{"jobs":3,"companies":["Air Products","T-Mobile"],"coords":[40.5961,-75.4756]}},
+{"location":"Tukwila, WA","data":
+{"jobs":3,"companies":["Geico","Seattle Sounders FC","The Boeing Company"],"coords":[47.475,-122.2728]}},
+{"location":"Redwood City, CA","data":
+{"jobs":3,"companies":["Google"],"coords":[37.5025,-122.2253]}},
+{"location":"Santa Cruz, CA","data":
+{"jobs":3,"companies":["Google"],"coords":[36.9789,-122.0346]}},
+{"location":"Montreal, QC","data":
+{"jobs":3,"companies":["Blackrock","Google"]}},
+{"location":"South San Francisco, CA","data":
+{"jobs":3,"companies":["Google","Roche"],"coords":[37.6538,-122.4196]}},
+{"location":"Lake Mary, FL","data":
+{"jobs":3,"companies":["BNY","Bank of New York Mellon"],"coords":[28.7592,-81.336]}},
+{"location":"Chandler, AZ","data":
+{"jobs":3,"companies":["Microchip Technology","NXP Semiconductors","Wells Fargo"],"coords":[33.2825,-111.8514]}},
+{"location":"Fayetteville, NC","data":
+{"jobs":3,"companies":["Booz Allen","Procter & Gamble (P&G)"],"coords":[35.085,-78.9772]}},
+{"location":"Milford Charter Twp, MI","data":
+{"jobs":3,"companies":["General Motors"]}},
+{"location":"Fairview, OR","data":
+{"jobs":3,"companies":["Microchip Technology"],"coords":[45.5469,-122.439]}},
+{"location":"West Lafayette, IN","data":
+{"jobs":3,"companies":["Arconic","Caterpillar Inc."],"coords":[40.4432,-86.9238]}},
+{"location":"Coraopolis, PA","data":
+{"jobs":3,"companies":["Civil & Environmental Consultants","Eaton Corporation"]}},
+{"location":"Davenport, IA","data":
+{"jobs":3,"companies":["John Deere"],"coords":[41.5565,-90.6053]}},
+{"location":"Westborough, MA","data":
+{"jobs":3,"companies":["Marvell"],"coords":[42.2681,-71.614]}},
+{"location":"Palm Bay, FL","data":
+{"jobs":3,"companies":["L3Harris Technologies"],"coords":[27.9631,-80.6593]}},
+{"location":"Twinsburg, OH","data":
+{"jobs":3,"companies":["GE Healthcare","RoviSys"],"coords":[41.322,-81.4451]}},
+{"location":"Lombard, IL","data":
+{"jobs":3,"companies":["ABB","RoviSys"],"coords":[41.8741,-88.0157]}},
+{"location":"Idaho Falls, ID","data":
+{"jobs":3,"companies":["Idaho National Laboratory"],"coords":[43.4871,-112.0362]}},
+{"location":"Plainview, NY","data":
+{"jobs":3,"companies":["Altice USA"],"coords":[40.7832,-73.4732]}},
+{"location":"Eau Claire, WI","data":
+{"jobs":3,"companies":["Compeer Financial","Hewlett Packard Enterprise","Xcel Energy"],"coords":[44.8197,-91.4948]}},
+{"location":"Newark, DE","data":
+{"jobs":2,"companies":["Air Liquide","FMC Corporation"],"coords":[39.6776,-75.7576]}},
+{"location":"Westford, MA","data":
+{"jobs":2,"companies":["Nokia","Ribbon"],"coords":[42.5864,-71.4401]}},
+{"location":"Glendale, AZ","data":
+{"jobs":2,"companies":["CSAA Insurance Group"],"coords":[33.5791,-112.2311]}},
+{"location":"Denver, NC","data":
+{"jobs":2,"companies":["CommScope"]}},
+{"location":"Grand Forks, ND","data":
+{"jobs":2,"companies":["Northrop Grumman"],"coords":[47.9214,-97.0884]}},
+{"location":"West Valley City, UT","data":
+{"jobs":2,"companies":["Motorola","RTX"],"coords":[40.6886,-112.0123]}},
+{"location":"Cherry Hills Village, CO","data":
+{"jobs":2,"companies":["W.R. Berkley","ispace"]}},
+{"location":"Normal, IL","data":
+{"jobs":2,"companies":["Rivian"],"coords":[40.5217,-88.9884]}},
+{"location":"Webster, NY","data":
+{"jobs":2,"companies":["Corning","Thermo Fisher Scientific"],"coords":[43.2294,-77.4454]}},
+{"location":"Bluemont, VA","data":
+{"jobs":2,"companies":["Parsons"]}},
+{"location":"Lindon, UT","data":
+{"jobs":2,"companies":["Awardco"],"coords":[40.3414,-111.7187]}},
+{"location":"Brattleboro, VT","data":
+{"jobs":2,"companies":["C&S Wholesale Grocers"],"coords":[42.8619,-72.6145]}},
+{"location":"Woodlawn, MD","data":
+{"jobs":2,"companies":["Tria Federal"],"coords":[39.3054,-76.7489]}},
+{"location":"Woodridge, IL","data":
+{"jobs":2,"companies":["Computershare","Motorola"],"coords":[41.737,-88.0409]}},
+{"location":"Kent, WA","data":
+{"jobs":2,"companies":["Stoke Space","The Boeing Company"],"coords":[47.3887,-122.2128]}},
+{"location":"Newport News, VA","data":
+{"jobs":2,"companies":["Huntington Ingalls Industries"],"coords":[37.1051,-76.5185]}},
+{"location":"Bozeman, MT","data":
+{"jobs":2,"companies":["CACI","Quiq"],"coords":[45.6833,-111.0558]}},
+{"location":"Leawood, KS","data":
+{"jobs":2,"companies":["Ascend Learning"],"coords":[38.9075,-94.6258]}},
+{"location":"Sacramento, CA","data":
+{"jobs":2,"companies":["Rhombus","Siemens"],"coords":[38.5677,-121.4685]}},
+{"location":"Lawrence, MA","data":
+{"jobs":2,"companies":["Fresenius Medical Care","Voyant Photonics"],"coords":[42.7002,-71.1626]}},
+{"location":"Warwick, UK","data":
+{"jobs":2,"companies":["Electronic Arts","Momentive"]}},
+{"location":"Concord, NC","data":
+{"jobs":2,"companies":["General Motors"],"coords":[35.3933,-80.6369]}},
+{"location":"Calgary, AB, CAN","data":
+{"jobs":2,"companies":["Hexagon","Hexagon AB"]}},
+{"location":"Dublin, OH","data":
+{"jobs":2,"companies":["Cardinal Health"],"coords":[40.1112,-83.1454]}},
+{"location":"Southlake, TX","data":
+{"jobs":2,"companies":["Verizon Communications"],"coords":[32.9545,-97.1503]}},
+{"location":"Iselin, Woodbridge Township, NJ","data":
+{"jobs":2,"companies":["Ernst & Young","Siemens"]}},
+{"location":"Sioux Falls, SD","data":
+{"jobs":2,"companies":["Interstates","Omnitech"],"coords":[43.5396,-96.7311]}},
+{"location":"Los Altos, CA","data":
+{"jobs":2,"companies":["InterDigital","Toyota Research Institute"],"coords":[37.3684,-122.0965]}},
+{"location":"Bend, OR","data":
+{"jobs":2,"companies":["Microchip Technology","Sierra Nevada Coporation"],"coords":[44.0563,-121.3095]}},
+{"location":"Broken Arrow, OK","data":
+{"jobs":2,"companies":["CAE"],"coords":[36.038,-95.7806]}},
+{"location":"Brighton, UK","data":
+{"jobs":2,"companies":["American Express"]}},
+{"location":"Centreville, VA","data":
+{"jobs":2,"companies":["AeroVironment","Parsons"],"coords":[38.839,-77.4389]}},
+{"location":"Northamptonshire, UK","data":
+{"jobs":2,"companies":["Barclays"]}},
+{"location":"Smyrna, GA","data":
+{"jobs":2,"companies":["Nasdaq","Procter & Gamble (P&G)"],"coords":[33.8633,-84.5168]}},
+{"location":"Vandalia, OH","data":
+{"jobs":2,"companies":["Midmark"],"coords":[39.8791,-84.193]}},
+{"location":"Chaska, MN","data":
+{"jobs":2,"companies":["Danaher Corporation","Tokyo Electron"],"coords":[44.8164,-93.6091]}},
+{"location":"Brooklyn, NY","data":
+{"jobs":2,"companies":["Ava Labs","Vera Institute of Justice"],"coords":[40.6501,-73.9496]}},
+{"location":"Goldsboro, NC","data":
+{"jobs":2,"companies":["Johnson & Johnson","Marmon Holdings"],"coords":[35.3778,-77.9717]}},
+{"location":"East Syracuse, NY","data":
+{"jobs":2,"companies":["Belden","Saab"]}},
+{"location":"Somerset County, NJ","data":
+{"jobs":2,"companies":["Roche","Verizon Communications"]}},
+{"location":"Calhoun, GA","data":
+{"jobs":2,"companies":["Mohawk"],"coords":[34.491,-84.9386]}},
+{"location":"Littleton, CO","data":
+{"jobs":2,"companies":["Rocket Lab USA"],"coords":[39.5915,-105.0188]}},
+{"location":"Brooklyn Park, MN","data":
+{"jobs":2,"companies":["Caterpillar Inc.","Target"],"coords":[45.1112,-93.3505]}},
+{"location":"Towson, MD","data":
+{"jobs":2,"companies":["Stanley Black & Decker","United Parcel Service (UPS)"],"coords":[39.3944,-76.619]}},
+{"location":"Bastrop, TX","data":
+{"jobs":2,"companies":["SpaceX"],"coords":[30.1113,-97.3176]}},
+{"location":"Brownsville, TX","data":
+{"jobs":2,"companies":["SpaceX"],"coords":[25.9975,-97.458]}},
+{"location":"McGregor, TX","data":
+{"jobs":2,"companies":["SpaceX"]}},
+{"location":"Mason City, IA","data":
+{"jobs":2,"companies":["RSM"],"coords":[43.1487,-93.1997]}},
+{"location":"Chattanooga, TN","data":
+{"jobs":2,"companies":["Transcard Payments"],"coords":[35.066,-85.2481]}},
+{"location":"Irmo, SC","data":
+{"jobs":2,"companies":["Michelin","Motorola"],"coords":[34.1018,-81.1956]}},
+{"location":"Poughkeepsie, NY","data":
+{"jobs":2,"companies":["IBM","Marvell"],"coords":[41.695,-73.9211]}},
+{"location":"St Paul, MN","data":
+{"jobs":2,"companies":["Computershare","Securian Financial Group"]}},
+{"location":"Vancouver, CAN","data":
+{"jobs":2,"companies":["Corpay"]}},
+{"location":"Waukesha, WI","data":
+{"jobs":2,"companies":["Generac"],"coords":[43.0087,-88.2464]}},
+{"location":"Cheektowaga, NY","data":
+{"jobs":2,"companies":["Geico","Moog"],"coords":[42.9082,-78.7466]}},
+{"location":"Delaware, OH","data":
+{"jobs":2,"companies":["Vertiv"],"coords":[40.2851,-83.0741]}},
+{"location":"Maryland Heights, MO","data":
+{"jobs":2,"companies":["Spectrum"],"coords":[38.7189,-90.4749]}},
+{"location":"Twyford, Reading, UK","data":
+{"jobs":2,"companies":["Hewlett Packard Enterprise"]}},
+{"location":"Waterloo, ON","data":
+{"jobs":2,"companies":["Google"]}},
+{"location":"Raritan, NJ","data":
+{"jobs":2,"companies":["Johnson & Johnson"],"coords":[40.507,-74.8662]}},
+{"location":"Spring House, PA","data":
+{"jobs":2,"companies":["Johnson & Johnson"]}},
+{"location":"Massillon, OH","data":
+{"jobs":2,"companies":["J.M. Smucker"],"coords":[40.7838,-81.5254]}},
+{"location":"Sunrise, FL","data":
+{"jobs":2,"companies":["AeroVironment","American Express"],"coords":[26.1547,-80.2997]}},
+{"location":"North Haven, CT","data":
+{"jobs":2,"companies":["Medtronic"]}},
+{"location":"Lafayette, CO","data":
+{"jobs":2,"companies":["Medtronic"],"coords":[39.9946,-105.0998]}},
+{"location":"Charlotte, North Carolina","data":
+{"jobs":2,"companies":["Bank of America"]}},
+{"location":"Dallas, Texas","data":
+{"jobs":2,"companies":["Bank of America"]}},
+{"location":"North Bethesda, MD","data":
+{"jobs":2,"companies":["Thermo Fisher Scientific","X-energy"],"coords":[39.0393,-77.1191]}},
+{"location":"Gloucester, UK","data":
+{"jobs":2,"companies":["Honeywell","Moog"]}},
+{"location":"Bristol, UK","data":
+{"jobs":2,"companies":["IMC Trading","Qualcomm"]}},
+{"location":"Fargo, ND","data":
+{"jobs":2,"companies":["Caterpillar Inc.","Danaher Corporation"],"coords":[46.8651,-96.8292]}},
+{"location":"Decatur, IL","data":
+{"jobs":2,"companies":["Caterpillar Inc."],"coords":[39.8557,-88.9342]}},
+{"location":"Stratford-upon-Avon, UK","data":
+{"jobs":2,"companies":["Robert Bosch Venture Capital"]}},
+{"location":"Mobile, AL","data":
+{"jobs":2,"companies":["Airbus","SCS Engineers"],"coords":[30.6782,-88.1162]}},
+{"location":"Monroeville, PA","data":
+{"jobs":2,"companies":["Eos Energy Storage","Philips"],"coords":[40.4262,-79.7605]}},
+{"location":"Walnut Creek, CA","data":
+{"jobs":2,"companies":["Wind River"],"coords":[37.9024,-122.0399]}},
+{"location":"North Charleston, SC","data":
+{"jobs":2,"companies":["HNTB","The Boeing Company"],"coords":[32.9067,-80.0722]}},
+{"location":"Hazelwood, MO","data":
+{"jobs":2,"companies":["Panasonic Avionics","The Boeing Company"],"coords":[38.7931,-90.3899]}},
+{"location":"Greenville, TX","data":
+{"jobs":2,"companies":["L3Harris Technologies"],"coords":[33.1116,-96.1099]}},
+{"location":"Goodlettsville, TN","data":
+{"jobs":2,"companies":["SharkNinja"],"coords":[36.333,-86.7026]}},
+{"location":"West Palm Beach, FL","data":
+{"jobs":2,"companies":["RTX"],"coords":[26.7469,-80.132]}},
+{"location":"Maple Grove, MN","data":
+{"jobs":2,"companies":["Boston Scientific"],"coords":[45.1089,-93.4626]}},
+{"location":"Chambersburg, PA","data":
+{"jobs":2,"companies":["Oshkosh"],"coords":[39.9315,-77.6556]}},
+{"location":"Stillwater, OK","data":
+{"jobs":2,"companies":["The Toro Company"],"coords":[36.1317,-97.0742]}},
+{"location":"Hampton, VA","data":
+{"jobs":2,"companies":["Analytical Mechanics Associates","Howmet Aerospace"],"coords":[37.0551,-76.363]}},
+{"location":"Miamisburg, OH","data":
+{"jobs":2,"companies":["Avery Dennison"],"coords":[39.6322,-84.2724]}},
+{"location":"Warminster, PA","data":
+{"jobs":2,"companies":["PennState University"],"coords":[40.2043,-75.0915]}},
+{"location":"Cottage Grove, MN","data":
+{"jobs":2,"companies":["CHS"],"coords":[44.8161,-92.9274]}},
+{"location":"South Plainfield, NJ","data":
+{"jobs":2,"companies":["Public Service Enterprise Group"],"coords":[40.5748,-74.4152]}},
+{"location":"Roanoke, VA","data":
+{"jobs":2,"companies":["AECOM","Steel Dynamics"],"coords":[37.2785,-79.9581]}},
+{"location":"San Ramon, CA","data":
+{"jobs":2,"companies":["AT&T"],"coords":[37.7624,-121.9365]}},
+{"location":"Duluth, MN","data":
+{"jobs":2,"companies":["Barr","LHB"],"coords":[46.7756,-92.1393]}},
+{"location":"Mequon, WI","data":
+{"jobs":2,"companies":["Charter Manufacturing"],"coords":[43.2352,-87.9839]}},
+{"location":"Northeastern United States","data":
+{"jobs":2,"companies":["Centene","Highmark Health"]}},
+{"location":"Logan, UT","data":
+{"jobs":2,"companies":["Space Dynamics Laboratory","Thermo Fisher Scientific"],"coords":[41.7399,-111.8422]}},
+{"location":"Las Vegas, NV","data":
+{"jobs":2,"companies":["HNTB","Nevada National Security"],"coords":[36.2333,-115.2654]}},
+{"location":"Clifton Park, NY","data":
+{"jobs":2,"companies":["Kitware"],"coords":[42.8587,-73.8242]}},
+{"location":"Marcy, NY","data":
+{"jobs":2,"companies":["Ernst & Young","Wolfspeed"]}},
+{"location":"Andover, MN","data":
+{"jobs":2,"companies":["Zurich Insurance","nVent"],"coords":[45.2571,-93.3265]}},
+{"location":"Wakefield, MA","data":
+{"jobs":2,"companies":["Altice USA"],"coords":[42.5035,-71.0656]}},
+{"location":"Wright-Patterson AFB, OH","data":
+{"jobs":2,"companies":["Apogee Engineering","SciTec"]}},
+{"location":"Frederick, MD","data":
+{"jobs":2,"companies":["Oshkosh"],"coords":[39.4337,-77.4141]}},
+{"location":"Ogden, UT","data":
+{"jobs":2,"companies":["Jade Global"],"coords":[41.2279,-111.9682]}},
+{"location":"O'Fallon, MO","data":
+{"jobs":2,"companies":["True Manufacturing"],"coords":[38.785,-90.7175]}},
+{"location":"Fayetteville, GA","data":
+{"jobs":2,"companies":["RoviSys"],"coords":[33.4501,-84.471]}},
+{"location":"Holly Springs, NC","data":
+{"jobs":2,"companies":["RoviSys"],"coords":[35.6526,-78.8399]}},
+{"location":"Biloxi, MS","data":
+{"jobs":2,"companies":["Huntington Ingalls Industries"],"coords":[30.4426,-88.9514]}},
+{"location":"North Las Vegas, NV","data":
+{"jobs":2,"companies":["Nevada National Security"],"coords":[36.2883,-115.0888]}},
+{"location":"Toronto, ON, CAN","data":
+{"jobs":2,"companies":["Ontario Teachers' Pension Plan"]}},
+{"location":"Highland Park, IL","data":
+{"jobs":2,"companies":["W.W. Grainger"],"coords":[42.1823,-87.8104]}},
+{"location":"Winter Park, FL","data":
+{"jobs":1,"companies":["StoneX Group"],"coords":[28.5989,-81.3442]}},
+{"location":"Englewood, NJ","data":
+{"jobs":1,"companies":["Walker & Dunlop"],"coords":[40.8917,-73.9736]}},
+{"location":"Palatine, IL","data":
+{"jobs":1,"companies":["Northrop Grumman"],"coords":[42.118,-88.043]}},
+{"location":"Shrewsbury, NJ","data":
+{"jobs":1,"companies":["Commvault"]}},
+{"location":"Grove City, PA","data":
+{"jobs":1,"companies":["Westinghouse Electric Company"]}},
+{"location":"Catawba, NC","data":
+{"jobs":1,"companies":["CommScope"]}},
+{"location":"Beverly, MA","data":
+{"jobs":1,"companies":["Carrier Global"],"coords":[42.5681,-70.8627]}},
+{"location":"Totowa, NJ","data":
+{"jobs":1,"companies":["KLA"],"coords":[40.9039,-74.2214]}},
+{"location":"Banbury, UK","data":
+{"jobs":1,"companies":["Renault Group"]}},
+{"location":"Lake Buena Vista, FL","data":
+{"jobs":1,"companies":["The Walt Disney Company"]}},
+{"location":"Torrance, CA","data":
+{"jobs":1,"companies":["Moog"],"coords":[33.8346,-118.3416]}},
+{"location":"Dolores, CO","data":
+{"jobs":1,"companies":["AGILE Space Industries"]}},
+{"location":"Hammond, IN","data":
+{"jobs":1,"companies":["Altom Transport"],"coords":[41.6168,-87.4909]}},
+{"location":"Simsbury, CT","data":
+{"jobs":1,"companies":["Ensign-Bickford Aerospace & Defense Company"]}},
+{"location":"Beaumont, TX","data":
+{"jobs":1,"companies":["Flowserve"],"coords":[30.0849,-94.1451]}},
+{"location":"Liberty Lake, WA","data":
+{"jobs":1,"companies":["Schweitzer Engineering Laboratories"],"coords":[47.6686,-117.1036]}},
+{"location":"Orem, UT","data":
+{"jobs":1,"companies":["Awardco"],"coords":[40.2981,-111.6994]}},
+{"location":"Freeport, ME","data":
+{"jobs":1,"companies":["L.L.Bean"],"coords":[43.8556,-70.1009]}},
+{"location":"Vinita, OK","data":
+{"jobs":1,"companies":["Highmark Health"]}},
+{"location":"Slough, UK","data":
+{"jobs":1,"companies":["Centrica"]}},
+{"location":"Columbia, MO","data":
+{"jobs":1,"companies":["Veterans United"],"coords":[38.9472,-92.3268]}},
+{"location":"Franklin, MA","data":
+{"jobs":1,"companies":["Fulton Bank"],"coords":[42.0862,-71.4113]}},
+{"location":"Effingham, IL","data":
+{"jobs":1,"companies":["Rural King"],"coords":[39.1205,-88.5509]}},
+{"location":"Odenton, MD","data":
+{"jobs":1,"companies":["Leidos"],"coords":[39.0661,-76.6938]}},
+{"location":"Concord, CA","data":
+{"jobs":1,"companies":["Wells Fargo"],"coords":[37.9722,-122.0016]}},
+{"location":"Strongsville, OH","data":
+{"jobs":1,"companies":["Stanley Black & Decker"],"coords":[41.3128,-81.8313]}},
+{"location":"Albany, NY","data":
+{"jobs":1,"companies":["Blizzard Entertainment"],"coords":[42.6664,-73.7987]}},
+{"location":"Culver City, CA","data":
+{"jobs":1,"companies":["Blizzard Entertainment"],"coords":[34.0058,-118.3968]}},
+{"location":"Renton, WA","data":
+{"jobs":1,"companies":["Paccar"],"coords":[47.4784,-122.1918]}},
+{"location":"Berlin, CT","data":
+{"jobs":1,"companies":["Eversource Energy"]}},
+{"location":"Windsor, CT","data":
+{"jobs":1,"companies":["Eversource Energy"]}},
+{"location":"Westwood, MA","data":
+{"jobs":1,"companies":["Eversource Energy"],"coords":[42.2202,-71.2106]}},
+{"location":"Saratoga, CA","data":
+{"jobs":1,"companies":["Expedia Group"],"coords":[37.2684,-122.0263]}},
+{"location":"Cardiff, UK","data":
+{"jobs":1,"companies":["KLA Corporation"]}},
+{"location":"Woodland Hills, CA","data":
+{"jobs":1,"companies":["Blizzard Entertainment"]}},
+{"location":"Stamford, CT, USA","data":
+{"jobs":1,"companies":["Synchrony"]}},
+{"location":"Princeton, IL","data":
+{"jobs":1,"companies":["Allegion"]}},
+{"location":"Hackleburg, AL","data":
+{"jobs":1,"companies":["Northrop Grumman"]}},
+{"location":"Bracknell, UK","data":
+{"jobs":1,"companies":["GE Vernova"]}},
+{"location":"Bethlehem, PA","data":
+{"jobs":1,"companies":["Guardian Life"],"coords":[40.6266,-75.3679]}},
+{"location":"Solihull, UK","data":
+{"jobs":1,"companies":["Rolls Royce"]}},
+{"location":"High Point, NC","data":
+{"jobs":1,"companies":["CACI"],"coords":[35.991,-79.9937]}},
+{"location":"Hanover, MD","data":
+{"jobs":1,"companies":["CACI"]}},
+{"location":"Offutt AFB, NE","data":
+{"jobs":1,"companies":["Northrop Grumman"]}},
+{"location":"Essex, MD","data":
+{"jobs":1,"companies":["Rocket Lab USA"],"coords":[39.3021,-76.4449]}},
+{"location":"Solon, OH","data":
+{"jobs":1,"companies":["nVent"],"coords":[41.3865,-81.44]}},
+{"location":"Dublin, CA","data":
+{"jobs":1,"companies":["Zeiss"],"coords":[37.7161,-121.8963]}},
+{"location":"Florence, SC","data":
+{"jobs":1,"companies":["Sonoco"],"coords":[34.178,-79.7898]}},
+{"location":"Pittsfield, MA","data":
+{"jobs":1,"companies":["General Dynamics Mission Systems"],"coords":[42.4517,-73.2605]}},
+{"location":"Jensen Beach, FL","data":
+{"jobs":1,"companies":["NextEra Energy"],"coords":[27.2437,-80.2423]}},
+{"location":"Franksville, WI","data":
+{"jobs":1,"companies":["Eaton Corporation"]}},
+{"location":"Twin Falls, ID","data":
+{"jobs":1,"companies":["Agropur"],"coords":[42.5645,-114.4613]}},
+{"location":"Bowling Green, OH","data":
+{"jobs":1,"companies":["Marathon Petroleum"],"coords":[41.3776,-83.6495]}},
+{"location":"multiple 11","data":
+{"jobs":1,"companies":["Booz Allen"]}},
+{"location":"South Haven, MN","data":
+{"jobs":1,"companies":["Nova-Tech"]}},
+{"location":"Somerville, MA","data":
+{"jobs":1,"companies":["Babel Street"],"coords":[42.3908,-71.1014]}},
+{"location":"Cincinatti. OH","data":
+{"jobs":1,"companies":["Western & Southern"]}},
+{"location":"Noblesville, IN","data":
+{"jobs":1,"companies":["Trane Technologies"],"coords":[40.0355,-86.0042]}},
+{"location":"Highlands Ranch, CO","data":
+{"jobs":1,"companies":["RF-SMART"],"coords":[39.5419,-104.9708]}},
+{"location":"Pontiac, MI","data":
+{"jobs":1,"companies":["United Wholesale Mortgage"],"coords":[42.6493,-83.2878]}},
+{"location":"Petoskey, MI","data":
+{"jobs":1,"companies":["Daifuku"]}},
+{"location":"Calabasas, CA","data":
+{"jobs":1,"companies":["Keysight Technologies"],"coords":[34.1375,-118.6689]}},
+{"location":"Greenwood Village, CO","data":
+{"jobs":1,"companies":["CoBank"],"coords":[39.6153,-104.9131]}},
+{"location":"Burlington, NC","data":
+{"jobs":1,"companies":["LabCorp"],"coords":[36.076,-79.4685]}},
+{"location":"Binghamton, NY","data":
+{"jobs":1,"companies":["CAE"],"coords":[42.1014,-75.9093]}},
+{"location":"Billerica, MA","data":
+{"jobs":1,"companies":["Curriculum Associates"],"coords":[42.5587,-71.2673]}},
+{"location":"Morgantown, WV","data":
+{"jobs":1,"companies":["WVUMedicine"],"coords":[39.6383,-79.9464]}},
+{"location":"Wenden, Germany","data":
+{"jobs":1,"companies":["Boston Consulting Group"]}},
+{"location":"Hamburg, Germany","data":
+{"jobs":1,"companies":["Boston Consulting Group"]}},
+{"location":"Frankfurt, Germany","data":
+{"jobs":1,"companies":["Boston Consulting Group"]}},
+{"location":"Stuttgart, Germany","data":
+{"jobs":1,"companies":["Boston Consulting Group"]}},
+{"location":"Berlin, Germany","data":
+{"jobs":1,"companies":["Boston Consulting Group"]}},
+{"location":"Rogers, AR","data":
+{"jobs":1,"companies":["SPS Commerce"],"coords":[36.317,-94.1531]}},
+{"location":"Charlottesville, VA","data":
+{"jobs":1,"companies":["University of Virginia"],"coords":[38.0375,-78.4855]}},
+{"location":"Dubuque, IA","data":
+{"jobs":1,"companies":["RSM"],"coords":[42.5002,-90.707]}},
+{"location":"Ventura, CA","data":
+{"jobs":1,"companies":["Edison International"]}},
+{"location":"Saginaw, MI","data":
+{"jobs":1,"companies":["Corning"],"coords":[43.4199,-83.9501]}},
+{"location":"Newburgh, NY","data":
+{"jobs":1,"companies":["cencora"],"coords":[41.5531,-74.0599]}},
+{"location":"Lake Oswego, OR","data":
+{"jobs":1,"companies":["Trimble"],"coords":[45.4129,-122.7004]}},
+{"location":"Christchurch, UK","data":
+{"jobs":1,"companies":["Guardian Life"]}},
+{"location":"Dorking, UK","data":
+{"jobs":1,"companies":["Tranzact"]}},
+{"location":"Murrieta, CA","data":
+{"jobs":1,"companies":["Edison International"],"coords":[33.5719,-117.1909]}},
+{"location":"Santa Clarita, CA","data":
+{"jobs":1,"companies":["Edison International"],"coords":[34.4175,-118.4964]}},
+{"location":"Compton, CA","data":
+{"jobs":1,"companies":["Edison International"],"coords":[33.893,-118.2274]}},
+{"location":"Flower Mound, TX","data":
+{"jobs":1,"companies":["Stryker"],"coords":[33.0343,-97.1146]}},
+{"location":"Springville, UT","data":
+{"jobs":1,"companies":["Wavetronix"],"coords":[40.1638,-111.6205]}},
+{"location":"Ames, IA","data":
+{"jobs":1,"companies":["Kingland"],"coords":[42.0256,-93.6217]}},
+{"location":"Clear Lake, IA","data":
+{"jobs":1,"companies":["Kingland"]}},
+{"location":"Research Triangle Park, NC","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Hopewell Junction, NY","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Herndon, VA","data":
+{"jobs":1,"companies":["IBM"],"coords":[38.9699,-77.3867]}},
+{"location":"Statewide, GA","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Statewide, MN","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Statewide, TX","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Statewide, NC","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Statewide, VA","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Statewide, AZ","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Statewide, MA","data":
+{"jobs":1,"companies":["IBM"]}},
+{"location":"Coppell, TX","data":
+{"jobs":1,"companies":["Newrez"],"coords":[32.9639,-96.9903]}},
+{"location":"Lakeland, FL","data":
+{"jobs":1,"companies":["Geico"],"coords":[28.0557,-81.9545]}},
+{"location":"Fredericksburg, VA","data":
+{"jobs":1,"companies":["Geico"],"coords":[38.2992,-77.4872]}},
+{"location":"Woodbury, NY","data":
+{"jobs":1,"companies":["Geico"],"coords":[41.3284,-74.1004]}},
+{"location":"Macon, GA","data":
+{"jobs":1,"companies":["Geico"],"coords":[32.8065,-83.6974]}},
+{"location":"Sorrento Valley, San Diego, CA","data":
+{"jobs":1,"companies":["Geico"]}},
+{"location":"Katy, TX","data":
+{"jobs":1,"companies":["Geico"],"coords":[29.7905,-95.8353]}},
+{"location":"Anchorage, AK","data":
+{"jobs":1,"companies":["Geico"],"coords":[61.1508,-149.1091]}},
+{"location":"Holtsville, NY","data":
+{"jobs":1,"companies":["Zebra"],"coords":[40.8124,-73.0447]}},
+{"location":"Worcester, MA","data":
+{"jobs":1,"companies":["The Hanover"],"coords":[42.2705,-71.8079]}},
+{"location":"Fort Washington, PA","data":
+{"jobs":1,"companies":["Johnson & Johnson"]}},
+{"location":"New Brunswick, NJ","data":
+{"jobs":1,"companies":["Johnson & Johnson"],"coords":[40.487,-74.445]}},
+{"location":"Titusville, NJ","data":
+{"jobs":1,"companies":["Johnson & Johnson"]}},
+{"location":"Dakota Dunes, SD","data":
+{"jobs":1,"companies":["Empirical"]}},
+{"location":"Golden Valley, MN","data":
+{"jobs":1,"companies":["Pentair"],"coords":[44.9901,-93.3591]}},
+{"location":"Mississauga, ON, CAN","data":
+{"jobs":1,"companies":["Holman"]}},
+{"location":"Cedar Falls, IA","data":
+{"jobs":1,"companies":["SciPlay"],"coords":[42.5195,-92.4536]}},
+{"location":"Iselin, NJ","data":
+{"jobs":1,"companies":["Wells Fargo"],"coords":[40.5697,-74.3172]}},
+{"location":"Jersey City, NJ","data":
+{"jobs":1,"companies":["BNP Paribas"],"coords":[40.7184,-74.0686]}},
+{"location":"Jersey CIty, NJ","data":
+{"jobs":1,"companies":["BNP Paribas"]}},
+{"location":"Mexico City, MX","data":
+{"jobs":1,"companies":["Blackrock"]}},
+{"location":"Denver, Colorado","data":
+{"jobs":1,"companies":["Bank of America"]}},
+{"location":"Radnor, PA","data":
+{"jobs":1,"companies":["Stevens Capital Management LP"],"coords":[40.0287,-75.3675]}},
+{"location":"Jacksonville, Florida","data":
+{"jobs":1,"companies":["Bank of America"]}},
+{"location":"Plano, TX McLean, VA","data":
+{"jobs":1,"companies":["Capital One"]}},
+{"location":"Washington, D.C.","data":
+{"jobs":1,"companies":["Palantir"]}},
+{"location":"Escondido, CA","data":
+{"jobs":1,"companies":["Northrop Grumman"],"coords":[33.1348,-117.0723]}},
+{"location":"Jacksonville, AR","data":
+{"jobs":1,"companies":["The Kinetic Group"],"coords":[34.8807,-92.1304]}},
+{"location":"Greer, SC","data":
+{"jobs":1,"companies":["Rolls Royce"],"coords":[34.933,-82.2313]}},
+{"location":"Rockford, IL","data":
+{"jobs":1,"companies":["RTX"],"coords":[42.2596,-89.064]}},
+{"location":"Reisterstown, MD","data":
+{"jobs":1,"companies":["Northrop Grumman"],"coords":[39.455,-76.814]}},
+{"location":"Northridge, LA","data":
+{"jobs":1,"companies":["Northrop Grumman"]}},
+{"location":"Warner Robins, GA","data":
+{"jobs":1,"companies":["RTX"],"coords":[32.5961,-83.6527]}},
+{"location":"Oak Ridge, TN","data":
+{"jobs":1,"companies":["X-energy"],"coords":[35.9639,-84.2938]}},
+{"location":"Aledo, TX","data":
+{"jobs":1,"companies":["Moog"]}},
+{"location":"Newton, KS","data":
+{"jobs":1,"companies":["AGCO"],"coords":[38.0368,-97.3449]}},
+{"location":"Niagara Falls, NY","data":
+{"jobs":1,"companies":["Moog"],"coords":[43.0921,-79.0147]}},
+{"location":"North Kingstown, RI","data":
+{"jobs":1,"companies":["REGENT"],"coords":[41.5687,-71.4629]}},
+{"location":"Catskill, NY","data":
+{"jobs":1,"companies":["Haleon"],"coords":[42.2063,-73.9435]}},
+{"location":"Flanagan, IL","data":
+{"jobs":1,"companies":["Caterpillar Inc."]}},
+{"location":"McDonough, GA","data":
+{"jobs":1,"companies":["Caterpillar Inc."],"coords":[33.4397,-84.1505]}},
+{"location":"Schertz, TX","data":
+{"jobs":1,"companies":["Caterpillar Inc."],"coords":[29.565,-98.2535]}},
+{"location":"Rapid City, SD","data":
+{"jobs":1,"companies":["Caterpillar Inc."],"coords":[44.0716,-103.2204]}},
+{"location":"Durant, OK","data":
+{"jobs":1,"companies":["Caterpillar Inc."],"coords":[33.9949,-96.3923]}},
+{"location":"Clayton, NC","data":
+{"jobs":1,"companies":["Caterpillar Inc."],"coords":[35.659,-78.4498]}},
+{"location":"Canadian County, OK","data":
+{"jobs":1,"companies":["Caterpillar Inc."]}},
+{"location":"Quincy, WA","data":
+{"jobs":1,"companies":["Stoke Space"]}},
+{"location":"Saugus, MA","data":
+{"jobs":1,"companies":["GE Aerospace"],"coords":[42.4681,-71.0145]}},
+{"location":"Lexington, KY","data":
+{"jobs":1,"companies":["Thermo Fisher Scientific"],"coords":[38.0423,-84.4587]}},
+{"location":"Selinsgrove, PA","data":
+{"jobs":1,"companies":["Thermo Fisher Scientific"]}},
+{"location":"Urbana, IL","data":
+{"jobs":1,"companies":["Caterpillar Inc."],"coords":[40.1107,-88.1973]}},
+{"location":"Lancaster, PA","data":
+{"jobs":1,"companies":["Hearst"],"coords":[40.042,-76.3012]}},
+{"location":"Ithaca, NY","data":
+{"jobs":1,"companies":["BorgWarner"],"coords":[42.4442,-76.5032]}},
+{"location":"Boston, NY","data":
+{"jobs":1,"companies":["Moog"]}},
+{"location":"Engineering Intern, Process","data":
+{"jobs":1,"companies":["Lumafield"]}},
+{"location":"Carpentersville, IL","data":
+{"jobs":1,"companies":["OTTO"],"coords":[42.1227,-88.2896]}},
+{"location":"Indiana Technical Center, USA","data":
+{"jobs":1,"companies":["Aptiv"]}},
+{"location":"Leicester, UK","data":
+{"jobs":1,"companies":["Honeywell"]}},
+{"location":"Simpsonville, SC","data":
+{"jobs":1,"companies":["Robert Bosch Venture Capital"],"coords":[34.7287,-82.2569]}},
+{"location":"Reading, UK","data":
+{"jobs":1,"companies":["Visa"]}},
+{"location":"Swindon, UK","data":
+{"jobs":1,"companies":["Apple"]}},
+{"location":"Plymouth, MI","data":
+{"jobs":1,"companies":["Robert Bosch Venture Capital"],"coords":[42.3718,-83.468]}},
+{"location":"Chester, PA","data":
+{"jobs":1,"companies":["The Boeing Company"],"coords":[39.8456,-75.3718]}},
+{"location":"Seal Beach, CA","data":
+{"jobs":1,"companies":["The Boeing Company"],"coords":[33.7542,-118.0714]}},
+{"location":"St Charles, MO","data":
+{"jobs":1,"companies":["The Boeing Company"]}},
+{"location":"Auburn, WA","data":
+{"jobs":1,"companies":["The Boeing Company"],"coords":[47.3039,-122.2108]}},
+{"location":"Mukilteo, WA","data":
+{"jobs":1,"companies":["The Boeing Company"],"coords":[47.9096,-122.3035]}},
+{"location":"Apex, NC","data":
+{"jobs":1,"companies":["Novanta"],"coords":[35.7237,-78.8743]}},
+{"location":"Racine, WI","data":
+{"jobs":1,"companies":["Eaton Corporation"],"coords":[42.7274,-87.8135]}},
+{"location":"Moorpark, CA","data":
+{"jobs":1,"companies":["Ensign-Bickford Aerospace & Defense Company"],"coords":[34.2861,-118.8768]}},
+{"location":"Greendale, WI","data":
+{"jobs":1,"companies":["Eaton Corporation"],"coords":[42.9371,-88.0018]}},
+{"location":"Royse City, TX","data":
+{"jobs":1,"companies":["L3Harris Technologies"],"coords":[32.9762,-96.3175]}},
+{"location":"Exton, PA","data":
+{"jobs":1,"companies":["Comcast"]}},
+{"location":"Auburn, NY","data":
+{"jobs":1,"companies":["Baxter International"],"coords":[42.9338,-76.5685]}},
+{"location":"Jamestown, ND","data":
+{"jobs":1,"companies":["RTX"],"coords":[46.9063,-98.6937]}},
+{"location":"Tullahoma, TN","data":
+{"jobs":1,"companies":["Beyond New Horizons"],"coords":[35.3721,-86.2172]}},
+{"location":"Westlake Village, CA","data":
+{"jobs":1,"companies":["Marvell"]}},
+{"location":"Branchville, NJ","data":
+{"jobs":1,"companies":["Thorlabs"]}},
+{"location":"East Windsor, CT","data":
+{"jobs":1,"companies":["RTX"]}},
+{"location":"Valparaiso, IN","data":
+{"jobs":1,"companies":["Howmet Aerospace"],"coords":[41.4783,-87.0506]}},
+{"location":"Stevensville, MD","data":
+{"jobs":1,"companies":["AeroVironment"],"coords":[38.9745,-76.3184]}},
+{"location":"Fairborn, OH","data":
+{"jobs":1,"companies":["AeroVironment"],"coords":[39.801,-84.0094]}},
+{"location":"Bastrop, TX Irvine, CA Cape Canaveral, FL Brownsville, TX Redmond, WA McGregor, TX West Athens, CA Sunnyvale, CA","data":
+{"jobs":1,"companies":["SpaceX"]}},
+{"location":"Las Cruces, NM","data":
+{"jobs":1,"companies":["Leidos"],"coords":[32.3265,-106.7893]}},
+{"location":"South Houston, TX","data":
+{"jobs":1,"companies":["Flowserve"],"coords":[29.6611,-95.2285]}},
+{"location":"Newton, MA","data":
+{"jobs":1,"companies":["Medtronic"],"coords":[42.3316,-71.2085]}},
+{"location":"Lynnwood, WA","data":
+{"jobs":1,"companies":["Crane Co."],"coords":[47.8284,-122.3033]}},
+{"location":"Reading, PA","data":
+{"jobs":1,"companies":["Carpenter Technology"],"coords":[40.34,-75.9267]}},
+{"location":"Concord, MA","data":
+{"jobs":1,"companies":["RTX"],"coords":[42.462,-71.3639]}},
+{"location":"Camarillo, CA","data":
+{"jobs":1,"companies":["Teledyne"],"coords":[34.223,-119.0321]}},
+{"location":"San Luis Obispo, CA","data":
+{"jobs":1,"companies":["Entegris"],"coords":[35.2669,-120.669]}},
+{"location":"Maryville, TN","data":
+{"jobs":1,"companies":["Clayton"],"coords":[35.7468,-83.9789]}},
+{"location":"Bristol, PA","data":
+{"jobs":1,"companies":["Public Service Enterprise Group"],"coords":[40.1216,-74.8667]}},
+{"location":"Hickory, NC","data":
+{"jobs":1,"companies":["CommScope"],"coords":[35.741,-81.3223]}},
+{"location":"Casa Grande, AZ","data":
+{"jobs":1,"companies":["Lucid Motors"],"coords":[32.9069,-111.7624]}},
+{"location":"Warrenville, IL","data":
+{"jobs":1,"companies":["RR Donnelley"],"coords":[41.8209,-88.1857]}},
+{"location":"Dorchester, Boston, MA","data":
+{"jobs":1,"companies":["Eversource Energy"]}},
+{"location":"Springfield, MO","data":
+{"jobs":1,"companies":["Bass Pro Shops"],"coords":[37.1943,-93.2916]}},
+{"location":"Hollywood, LA","data":
+{"jobs":1,"companies":["Paramount Global"]}},
+{"location":"Gresham, OR","data":
+{"jobs":1,"companies":["Microchip Technology"],"coords":[45.5021,-122.4413]}},
+{"location":"La Jolla, San Diego, CA","data":
+{"jobs":1,"companies":["Johnson & Johnson"]}},
+{"location":"Gainesville, FL","data":
+{"jobs":1,"companies":["Gas South"],"coords":[29.6804,-82.3459]}},
+{"location":"Thornton, CO","data":
+{"jobs":1,"companies":["Solid Power"],"coords":[39.9197,-104.9438]}},
+{"location":"Monroe, GA","data":
+{"jobs":1,"companies":["Takeda"],"coords":[33.799,-83.7161]}},
+{"location":"Tacoma, WA","data":
+{"jobs":1,"companies":["Waste Connections"],"coords":[47.2431,-122.4531]}},
+{"location":"Kalamazoo, MI","data":
+{"jobs":1,"companies":["Zoetis"],"coords":[42.2749,-85.5882]}},
+{"location":"Pasadena, CA","data":
+{"jobs":1,"companies":["Kaiser Permanente"],"coords":[34.1597,-118.139]}},
+{"location":"Pittsburgh PA","data":
+{"jobs":1,"companies":["Highmark Health"]}},
+{"location":"Cary, NC","data":
+{"jobs":1,"companies":["SAS"],"coords":[35.7819,-78.8195]}},
+{"location":"Grand Prairie, TX","data":
+{"jobs":1,"companies":["Inmar Intelligence"],"coords":[32.6871,-97.0208]}},
+{"location":"McKeesport, PA","data":
+{"jobs":1,"companies":["GE Vernova"],"coords":[40.3418,-79.844]}},
+{"location":"Niceville, FL","data":
+{"jobs":1,"companies":["Leidos"],"coords":[30.529,-86.4748]}},
+{"location":"Ravena, NY","data":
+{"jobs":1,"companies":["GE Vernova"]}},
+{"location":"Frazeysburg, OH","data":
+{"jobs":1,"companies":["Cleveland-Cliffs"]}},
+{"location":"Berkeley Springs, WV","data":
+{"jobs":1,"companies":["Procter & Gamble (P&G)"]}},
+{"location":"Milbank, SD","data":
+{"jobs":1,"companies":["Terex"]}},
+{"location":"Brunswick, ME","data":
+{"jobs":1,"companies":["L.L.Bean"],"coords":[43.9007,-69.9761]}},
+{"location":"Daly City, CA","data":
+{"jobs":1,"companies":["Bristol Myers Squibb"],"coords":[37.6862,-122.4685]}},
+{"location":"Lawrence Township, NJ","data":
+{"jobs":1,"companies":["Geosyntec Consultants"]}},
+{"location":"Council Bluffs, IA","data":
+{"jobs":1,"companies":["Highmark Health"],"coords":[41.2369,-95.8516]}},
+{"location":"Devens, MA","data":
+{"jobs":1,"companies":["Commonwealth Fusion Systems"]}},
+{"location":"New Britain, CT","data":
+{"jobs":1,"companies":["Eversource Energy"],"coords":[41.6759,-72.7862]}},
+{"location":"Oxnard, CA","data":
+{"jobs":1,"companies":["Rolls Royce"],"coords":[34.1964,-119.1815]}},
+{"location":"Doylestown, PA","data":
+{"jobs":1,"companies":["RESPEC"],"coords":[40.2962,-75.1393]}},
+{"location":"Valparaiso, FL","data":
+{"jobs":1,"companies":["Leidos"]}},
+{"location":"Salem, OR","data":
+{"jobs":1,"companies":["Qorvo"],"coords":[44.9233,-123.0244]}},
+{"location":"Henderson, NV","data":
+{"jobs":1,"companies":["Levi Strauss & Co."],"coords":[36.0133,-115.0381]}},
+{"location":"Kingwood, Houston, TX","data":
+{"jobs":1,"companies":["OmniSource"]}},
+{"location":"Englewood, CO","data":
+{"jobs":1,"companies":["W.R. Berkley"],"coords":[39.6468,-104.9942]}},
+{"location":"Carrboro, NC","data":
+{"jobs":1,"companies":["Kitware"],"coords":[35.9259,-79.0878]}},
+{"location":"Elyria, OH","data":
+{"jobs":1,"companies":["Vertiv"],"coords":[41.376,-82.106]}},
+{"location":"Rockville, MD","data":
+{"jobs":1,"companies":["BAE Systems"],"coords":[39.0834,-77.1553]}},
+{"location":"Toledo, OH","data":
+{"jobs":1,"companies":["Clarios"],"coords":[41.6638,-83.5827]}},
+{"location":"St Joseph, MO","data":
+{"jobs":1,"companies":["Elanco"]}},
+{"location":"Thief River Falls, MN","data":
+{"jobs":1,"companies":["DigiKey"],"coords":[48.1108,-96.1778]}},
+{"location":"St. Charles, IL","data":
+{"jobs":1,"companies":["Clarios"],"coords":[41.9193,-88.3109]}},
+{"location":"Uxbridge, UK","data":
+{"jobs":1,"companies":["Robert Bosch Venture Capital"]}},
+{"location":"Stafford, VA","data":
+{"jobs":1,"companies":["CACI"]}},
+{"location":"Victorville, CA","data":
+{"jobs":1,"companies":["Edison International"],"coords":[34.5277,-117.3536]}},
+{"location":"Queens, NY","data":
+{"jobs":1,"companies":["Major League Baseball"],"coords":[40.7498,-73.7976]}},
+{"location":"Cottonwood Heights, UT","data":
+{"jobs":1,"companies":["Breeze Airways"],"coords":[40.6137,-111.8144]}},
+{"location":"Kenosha, WI","data":
+{"jobs":1,"companies":["Snap-on"],"coords":[42.5865,-87.8773]}},
+{"location":"King of Prussia, PA","data":
+{"jobs":1,"companies":["HNTB"],"coords":[40.0963,-75.3821]}},
+{"location":"Harrisburg, PA","data":
+{"jobs":1,"companies":["HNTB"],"coords":[40.2752,-76.8843]}},
+{"location":"Fairmont, WV","data":
+{"jobs":1,"companies":["HNTB"],"coords":[39.4768,-80.1491]}},
+{"location":"Charleston, WV","data":
+{"jobs":1,"companies":["HNTB"],"coords":[38.3484,-81.6322]}},
+{"location":"Gilbert, AZ","data":
+{"jobs":1,"companies":["TD Synnex"],"coords":[33.31,-111.7463]}},
+{"location":"Weybridge, UK","data":
+{"jobs":1,"companies":["Procter & Gamble (P&G)"]}},
+{"location":"Manhattan, NY","data":
+{"jobs":1,"companies":["Rockstar Games"],"coords":[40.7834,-73.9662]}},
+{"location":"Plover, WI","data":
+{"jobs":1,"companies":["Sentry Insurance"],"coords":[44.4615,-89.5382]}},
+{"location":"Mechanicsburg, PA","data":
+{"jobs":1,"companies":["Gannett Fleming"],"coords":[40.2115,-77.006]}},
+{"location":"Stoke-on-Trent, UK","data":
+{"jobs":1,"companies":["GE Vernova"]}},
+{"location":"New Castle, DE","data":
+{"jobs":1,"companies":["Siemens"]}},
+{"location":"John C. Stennis Space Center, MS","data":
+{"jobs":1,"companies":["Rocket Lab USA"]}},
+{"location":"Springdale, AR","data":
+{"jobs":1,"companies":["Arconic"],"coords":[36.1901,-94.1574]}},
+{"location":"Florence, KY","data":
+{"jobs":1,"companies":["Clarios"],"coords":[38.9899,-84.6471]}},
+{"location":"Daytona Beach, FL","data":
+{"jobs":1,"companies":["Brown & Brown Insurance"],"coords":[29.1995,-81.0982]}},
+{"location":"Tarentum, PA","data":
+{"jobs":1,"companies":["Arconic"]}},
+{"location":"Westlake, TX","data":
+{"jobs":1,"companies":["Fidelity Investments"]}},
+{"location":"Anderson, SC","data":
+{"jobs":1,"companies":["First Quality"],"coords":[34.5211,-82.6478]}},
+{"location":"Attleboro, MA","data":
+{"jobs":1,"companies":["Sensata"],"coords":[41.9311,-71.295]}},
+{"location":"Hyattsville, MD","data":
+{"jobs":1,"companies":["Adobe"],"coords":[38.9613,-76.9548]}},
+{"location":"Jefferson City, MO","data":
+{"jobs":1,"companies":["Bartlett & West"],"coords":[38.5676,-92.1759]}},
+{"location":"Amarillo, TX","data":
+{"jobs":1,"companies":["Xcel Energy"],"coords":[35.1984,-101.8316]}},
+{"location":"Nottingham, UK","data":
+{"jobs":1,"companies":["LSEG"]}},
+{"location":"Greeley, CO","data":
+{"jobs":1,"companies":["City of Greeley"],"coords":[40.4152,-104.7706]}},
+{"location":"Indian Trail, NC","data":
+{"jobs":1,"companies":["RTX"],"coords":[35.0699,-80.6452]}},
+{"location":"Inglewood, CA","data":
+{"jobs":1,"companies":["Los Angeles Clippers"],"coords":[33.9566,-118.3444]}},
+{"location":"Washington, PA","data":
+{"jobs":1,"companies":["TC Energy"],"coords":[39.7494,-77.5579]}},
+{"location":"Willmar, MN","data":
+{"jobs":1,"companies":["Nova-Tech"],"coords":[45.1216,-95.0569]}},
+{"location":"Newcastle upon Tyne, UK","data":
+{"jobs":1,"companies":["Marsh & McLennan"]}},
+{"location":"Bedford, MA","data":
+{"jobs":1,"companies":["Entegris"],"coords":[42.4969,-71.2783]}},
+{"location":"Quakertown, PA","data":
+{"jobs":1,"companies":["MillerKnoll"],"coords":[40.4398,-75.3455]}},
+{"location":"River Falls, WI","data":
+{"jobs":1,"companies":["Compeer Financial"],"coords":[44.8609,-92.6247]}},
+{"location":"Lakeville, MN","data":
+{"jobs":1,"companies":["Compeer Financial"],"coords":[44.6774,-93.252]}},
+{"location":"Chicagyo, IL","data":
+{"jobs":1,"companies":["CNA"]}},
+{"location":"Des Plaines, IL","data":
+{"jobs":1,"companies":["Thermo Fisher Scientific"],"coords":[42.0345,-87.9008]}},
+{"location":"Minneapolis, NC","data":
+{"jobs":1,"companies":["Ernst & Young"]}},
+{"location":"Charlotte, Rochester, NY","data":
+{"jobs":1,"companies":["Ernst & Young"]}},
+{"location":"New Braunfels, TX","data":
+{"jobs":1,"companies":["Symbotic"],"coords":[29.6994,-98.1148]}},
+{"location":"Livermore, CA","data":
+{"jobs":1,"companies":["Nevada National Security"],"coords":[37.6868,-121.7607]}},
+{"location":"Los Alamos, NM","data":
+{"jobs":1,"companies":["Nevada National Security"],"coords":[35.8927,-106.2862]}},
+{"location":"Prince George's County, MD","data":
+{"jobs":1,"companies":["Nevada National Security"]}},
+{"location":"Augusta, ME","data":
+{"jobs":1,"companies":["Iberdrola Group"],"coords":[44.3341,-69.7319]}},
+{"location":"Milford, CT","data":
+{"jobs":1,"companies":["Iberdrola Group"]}},
+{"location":"Riviera Beach, FL","data":
+{"jobs":1,"companies":["NextEra Energy"],"coords":[26.7813,-80.0741]}},
+{"location":"Avondale, AZ","data":
+{"jobs":1,"companies":["Fairlife"],"coords":[33.3873,-112.3235]}},
+{"location":"Tallahassee, FL","data":
+{"jobs":1,"companies":["SNC-Lavalin"],"coords":[30.4551,-84.2527]}},
+{"location":"Greensburg, PA","data":
+{"jobs":1,"companies":["Berkshire Hathaway Energy"],"coords":[40.3113,-79.5445]}},
+{"location":"Lake Forest, CA","data":
+{"jobs":1,"companies":["ASSA ABLOY"],"coords":[33.6605,-117.6714]}},
+{"location":"Murfreesboro, TN","data":
+{"jobs":1,"companies":["Oshkosh"],"coords":[35.849,-86.4121]}},
+{"location":"Irwindale, CA","data":
+{"jobs":1,"companies":["Edison International"]}},
+{"location":"Piketon, OH","data":
+{"jobs":1,"companies":["Heidelberg Materials"]}},
+{"location":"Collinsville, IL","data":
+{"jobs":1,"companies":["Ameren"],"coords":[38.677,-90.0063]}},
+{"location":"Taylor, MI","data":
+{"jobs":1,"companies":["HNTB"],"coords":[42.226,-83.2688]}},
+{"location":"Rugby, UK","data":
+{"jobs":1,"companies":["GE Vernova"]}},
+{"location":"East Side, PA","data":
+{"jobs":1,"companies":["Sanofi"]}},
+{"location":"Ambler, PA","data":
+{"jobs":1,"companies":["Johnson & Johnson"]}},
+{"location":"Heath, OH","data":
+{"jobs":1,"companies":["Covestro"],"coords":[40.0241,-82.4413]}},
+{"location":"Ewing, NJ","data":
+{"jobs":1,"companies":["Church & Dwight"],"coords":[40.265,-74.8006]}},
+{"location":"Miramar, FL","data":
+{"jobs":1,"companies":["Royal Caribbean Group"],"coords":[25.9773,-80.3351]}},
+{"location":"Trenton, NJ","data":
+{"jobs":1,"companies":["Church & Dwight"],"coords":[40.2237,-74.7641]}},
+{"location":"United Kingdom","data":
+{"jobs":1,"companies":["Rothschild & Co"]}},
+{"location":"Midland, TX","data":
+{"jobs":1,"companies":["ConocoPhillips"],"coords":[32.0243,-102.1147]}},
+{"location":"Mira Loma, CA","data":
+{"jobs":1,"companies":["United Parcel Service (UPS)"]}},
+{"location":"Kennewick, WA","data":
+{"jobs":1,"companies":["Lamb Weston"],"coords":[46.1978,-119.1732]}}]}
