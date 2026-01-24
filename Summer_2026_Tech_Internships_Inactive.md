@@ -38681,7 +38681,7 @@
 <tr>
 <td><strong><a href="https://simplify.jobs/c/Altice-USA?utm_source=GHList&utm_medium=company">Altice USA</a></strong></td>
 <td>Data Analytics Intern</td>
-<td>Long Island City, Queens, NY</td>
+<td>New York City, NY</td>
 <td>🔒</td>
 <td>5mo</td>
 </tr>
