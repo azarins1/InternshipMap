@@ -1,10 +1,8 @@
 // Arthur Zarins
 
-const dotenv = require('dotenv')
-dotenv.config({ path: './secrets.env' });
-
 const fs = require('node:fs')
 
+// const files = ['./data/quant_jobs.csv'];
 const files = ['./data/quant_jobs.csv', './data/swe_jobs.csv', './data/hardware_jobs.csv', './data/datascience_ml_jobs.csv'];
 
 const location_mappings = {
