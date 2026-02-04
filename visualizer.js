@@ -7,9 +7,46 @@ const usa = await usa_file.json()
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
+var job_type = 'jobs';
+var percent = false;
+
 window.addEventListener('resize', () => {
     visualize();
 });
+
+document.getElementById('sweBtn').addEventListener('click', () => {
+    job_type = 'swe';
+    visualize();
+});
+document.getElementById('quantBtn').addEventListener('click', () => {
+    job_type = 'quant';
+    visualize();
+})
+document.getElementById('hardwareBtn').addEventListener('click', () => {
+    job_type = 'hardware';
+    visualize();
+})
+document.getElementById('datascience_mlBtn').addEventListener('click', () => {
+    job_type = 'datascience_ml';
+    visualize();
+})
+document.getElementById('showAllBtn').addEventListener('click', () => {
+    job_type = 'jobs'; // gets data on all jobs
+    visualize();
+})
+document.getElementById('percentBtn').addEventListener('click', () => {
+    percent = !percent; // toggle percent
+    document.getElementById('percentBtn').innerHTML = 'Show %   ';
+    if (percent)
+        document.getElementById('percentBtn').innerHTML = 'Show Values';
+    visualize();
+})
+
+
+function changeJobType(type) {
+    job_type = type; // update the job type
+    visualize();
+}
 
 function calibrate_dimensions() {
     const ratio = 0.5;
@@ -23,6 +60,13 @@ function calibrate_dimensions() {
 }
 
 function visualize() {
+    let buttons = ['swe', 'quant', 'hardware', 'datascience_ml']
+    for (let i = 0; i < 4; i++){
+        document.getElementById(`${buttons[i]}Btn`).classList.remove('selected');
+    }
+
+    if (job_type != 'jobs')
+        document.getElementById(`${job_type}Btn`).classList.add('selected');
     calibrate_dimensions();
     drawUSA();
     draw_cities();
@@ -54,28 +98,50 @@ function drawUSA() {
 function draw_cities() {
     // draw the cities
     let cities = data.cities;
+    let total_jobs = 0;
+    for (let i = 0; i < cities.length; i++) {
+        cities[i].display_value = cities[i].data[job_type];
+        total_jobs += cities[i].data[job_type];
+    }
+    console.log('Total Jobs:', total_jobs);
+    cities.sort((a, b) => { return b.display_value - a.display_value });
+
     for (let i = cities.length - 1; i >= 0; i--) {
+        let jobs = cities[i].display_value;
         let coords = cities[i].data.coords;
         if (coords == undefined)
             continue;
         let xy_mercator = mercator(coords);
         let xy_coords = zoom_in(xy_mercator);
 
-        let jobs = cities[i].data.jobs;
+        console.log(cities[0].location, cities[1].location, cities[2].location);
         ctx.fillStyle = 'rgba(55, 191, 45, 0.3)';
-        if (i <=7) {
-            ctx.fillStyle = 'rgba(191, 45, 45, 0.5)';
-            console.log(cities[i].location)
+        if (i <= 7) {
+            ctx.fillStyle = 'rgba(191, 45, 45, 0.3)';
+            // console.log(cities[i].location)
         }
-        circle(xy_coords[0], xy_coords[1], job_size(jobs));
-        if (i <= 7){
+        if (percent == true) {
+            circle(xy_coords[0], xy_coords[1], job_size(jobs, total_jobs));
+        } else {
+            circle(xy_coords[0], xy_coords[1], job_size(jobs, 0));
+            // circle(xy_coords[0], xy_coords[1], job_size(jobs, 0));
+        }
+        if (i <= 15) {
             ctx.fillStyle = 'black';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
             ctx.font = '25px Helvetica';
-            ctx.fillText(cities[i].location, xy_coords[0], xy_coords[1])
+            // ctx.fillText(cities[i].location, xy_coords[0], xy_coords[1])
         }
     }
+    const results = document.getElementById('results');
+    let result_text = '';
+    for (let i = 0; i < 20 & i < cities.length; i++){
+        result_text += `${i+1}. ${cities[i].location} - ${cities[i].display_value} 
+        (${Math.round(cities[i].display_value * 10000 / total_jobs) / 100}%)
+        <br>`
+    }
+    results.innerHTML = result_text;
 }
 
 function circle(x, y, r = 5) {
@@ -88,6 +154,8 @@ function circle(x, y, r = 5) {
 
 /**
  * Converts latitude and longitude to x,y coordinates
+ * This function was written with assistance from Google Gemini
+ * Prompt: 'Mercator formula code' (response was pseudocode)
  * @param {*} coords 
  * @returns 
  */
@@ -120,6 +188,10 @@ function zoom_in(coords) {
     return new_coords;
 }
 
-function job_size(jobs) {
-    return Math.sqrt(jobs) * (canvas.width * 0.002);
+// size for functions to be
+function job_size(jobs, total_jobs = 0) {
+    return Math.min(jobs, 1);
+    if (total_jobs == 0) // we don't care about total # of jobs
+        return Math.sqrt(jobs) * (canvas.width * 0.0025);
+    return Math.sqrt(jobs / total_jobs) * (canvas.width * 0.1);
 }

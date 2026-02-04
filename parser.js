@@ -2,7 +2,7 @@
 
 const fs = require('node:fs')
 
-// const files = ['./data/quant_jobs.csv'];
+// const files = ['./data/hardware_jobs.csv'];
 const files = ['./data/quant_jobs.csv', './data/swe_jobs.csv', './data/hardware_jobs.csv', './data/datascience_ml_jobs.csv'];
 
 const location_mappings = {
@@ -73,6 +73,8 @@ var locations = {};
 function process_datafile(filename) {
     // Import raw data
     const raw_data = fs.readFileSync(filename, 'utf8');
+    const type = filename.split('/').at(-1).split('.')[0];
+    console.log(type);
     const lines = raw_data.split('\n')
 
     let last_company = '';
@@ -92,9 +94,13 @@ function process_datafile(filename) {
         if (location == null) continue; // ignore bad data
 
         if (locations[location] == undefined) {
-            locations[location] = { jobs: 0, companies: new Set() }; // initialize the location
+            locations[location] = { jobs: 0, quant: 0, swe: 0, hardware: 0, datascience_ml: 0, companies: new Set() }; // initialize the location
         }
         locations[location].jobs += 1;
+        if(type == 'quant_jobs') locations[location].quant += 1;
+        if(type == 'swe_jobs') locations[location].swe += 1;
+        if(type == 'hardware_jobs') locations[location].hardware += 1;
+        if(type == 'datascience_ml_jobs') locations[location].datascience_ml += 1;
         locations[location].companies.add(company);
         global_job_count += 1;
         last_company = company; // update the last recorded company
