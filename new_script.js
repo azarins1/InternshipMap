@@ -1,8 +1,10 @@
 const r = await fetch('/internship_data.json');
 const data = (await r.json()).cities;
 
-const usaMap = document.getElementById('USA_map');
-// console.log(usaMap.width, usaMap.height);
+
+
+/* const usaMap = document.getElementById('USA_map'); 
+// console.log(usaMap.width, usaMap.height); */
 
 let lat = [9999, -9999];
 let long = [9999, -9999];
