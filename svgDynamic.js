@@ -1,9 +1,9 @@
 const container = document.getElementById("map-container");
-const svgWidth = container.clientWidth - 0;
-const svgHeight = container.clientHeight - 0;
+const svgHeight = container.clientHeight;
+const svgWidth = container.clientWidth;
 
-import { states } from './state_names.js';
-console.log(states)
+import { states, fullStateNames } from './state_names.js';
+console.log(states, fullStateNames)
 
 const svg = d3.select("#map-container")
     .append("svg")
@@ -16,16 +16,17 @@ var tooltip = d3.select("#map-container")
     .style("position", "absolute")
     .attr('class', 'tooltip')
     .style("visibility", "hidden")
-    .text("HELLO");
 
 d3.json('2010_us_census.json').then(unitedStates => {
-    // Map projection, pathGenerator, and svg append generated with ChatGPT
-    const projection = d3.geoAlbersUsa()
+    // Map projection, pathGenerator, and svg append (except mouse events) generated with ChatGPT
+
+    const projection = d3.geoAlbersUsa() //geoAlbersUsa
         .fitSize([svgWidth, svgHeight], unitedStates);
 
     const pathGenerator = d3.geoPath()
         .projection(projection);
 
+    let stateStats = {};
     svg.append("g")
         .selectAll("path")
         .data(unitedStates.features)
@@ -33,43 +34,79 @@ d3.json('2010_us_census.json').then(unitedStates => {
         .append("path")
         .attr('id', d => d.properties.NAME)
         .attr("class", "state")
-        .attr("d", pathGenerator);
-
+        .attr("d", pathGenerator)
+        .on("mouseover", (event) => {
+            document.getElementById(event.currentTarget.id).style.strokeWidth = '5';
+        })
+        .on("mouseenter", (event) => {
+            tooltip.style("visibility", "visible");
+            const stateName = event.currentTarget.id;
+            const jobCount = stateStats[stateName];
+            if (jobCount == undefined) {
+                tooltip.html(`${stateName}<br><i>No roles</i>`);
+            } else if (jobCount == 1) {
+                tooltip.html(`${stateName}<br><i>1 role</i>`);
+            } else {
+                tooltip.html(`${stateName}<br><i>${jobCount} roles</i>`);
+            }
+        })
+        .on("mousemove", (evt) => {
+            tooltip.style("top", (event.offsetY) + "px").style("left", (event.offsetX + 10) + "px");
+        })
+        .on('mouseleave', (event) => {
+            tooltip.style("visibility", "hidden");
+            document.getElementById(event.currentTarget.id).style.strokeWidth = '0.5';
+        })
     // Draw and Parse the cities
-    let stateStats = {};
     d3.json('internship_data.json').then(internship_data => {
         const data = internship_data.cities;
         for (let i = 0; i < data.length; i++) {
             // draw city
             const coords = data[i].data.coords;
-            if (coords == undefined)
+            if (coords == undefined) {
+                // Assign jobs to state total if coordinates are undefined
+                let location = data[i].location;
+                if (fullStateNames.has(location)) {
+                    if (stateStats[location] == undefined)
+                        stateStats[location] = 0;
+                    stateStats[location] += data[i].data.jobs;
+                }
                 continue;
+            }
             const XYcoords = projection([coords[1], coords[0]]);
             if (!XYcoords)
                 continue;
+
+            let r = Math.pow(data[i].data.jobs, 3 / 5) * (svgWidth / 1000);
+            const fillColor = '#04ffd9ff';
             svg.append('circle')
                 .attr('cx', XYcoords[0])
                 .attr('cy', XYcoords[1])
-                // Later on, scale r proportionally to viewport width
-                .attr('r', Math.pow(data[i].data.jobs, 3 / 5))
-                .attr('fill', '#04ffd9ff')
+                .attr('r', r)
+                .attr('fill', fillColor)
                 .attr('stroke', 'black')
                 .attr('stroke-opacity', 0.3)
                 .attr('TOTAL_JOBS', data[i].data.jobs)
+                .attr('swe', data[i].data.swe)
+                .attr('quant', data[i].data.quant)
+                .attr('hardware', data[i].data.hardware)
+                .attr('datascience_ml', data[i].data.datascience_ml)
+                .attr('DATA', data[i].data)
                 .attr('CITY_NAME', data[i].location)
                 .attr('opacity', 0.5)
                 .on("mouseenter", (event) => {
                     d3.select(event.currentTarget)
                         .attr('opacity', 1)
                         .attr('stroke-width', 3)
-                        .attr('z-index', 99);
+                        .attr('z-index', 99)
+                        .attr('fill', 'lime')
                     tooltip.style("visibility", "visible");
                     const cityName = d3.select(event.currentTarget).attr('CITY_NAME');
                     const jobCount = d3.select(event.currentTarget).attr('TOTAL_JOBS');
                     if (jobCount == 1) {
-                        tooltip.html(`${cityName}<br>(1 job)`);
+                        tooltip.html(`${cityName}<br><i>1 role</i>`);
                     } else {
-                        tooltip.html(`${cityName}<br>(${jobCount} jobs)`);
+                        tooltip.html(`${cityName}<br><i>${jobCount} roles</i>`);
                     }
                 })
                 .on("mousemove", (evt) => {
@@ -78,7 +115,8 @@ d3.json('2010_us_census.json').then(unitedStates => {
                 .on('mouseleave', (event) => {
                     d3.select(event.currentTarget)
                         .attr('opacity', 0.7)
-                        .attr('stroke-width', 1);
+                        .attr('stroke-width', 1)
+                        .attr('fill', fillColor)
                     tooltip.style("visibility", "hidden");
                 })
 
@@ -101,17 +139,22 @@ d3.json('2010_us_census.json').then(unitedStates => {
         // Color in the states
         let state_names = Object.values(states);
         for (let i = 0; i < state_names.length; i++) {
-            document.getElementById(state_names[i]).style.fill = 'rgb(0,70,70)';
+            document.getElementById(state_names[i]).style.fill = 'rgb(0,80,80)';
         }
         console.log(region_array)
         for (let i = 0; i < region_array.length; i++) {
             const stateName = region_array[i].state;
             const jobs = region_array[i].jobs;
-            let scale = Math.pow(jobs, 1/3) * 255 / Math.pow(maxJobs, 1/3);
+            const factor = 1 / 4;
+            let scale = Math.pow(jobs, factor) * 255 / Math.pow(maxJobs, factor);
             if (document.getElementById(stateName) == undefined)
                 continue;
-            document.getElementById(stateName).style.fill = 
-            `rgb(${scale}, 80, 80)`;
+            document.getElementById(stateName).style.fill =
+                `rgb(${scale}, 80, 80)`;
         }
     })
 })
+
+function resizeChart() {
+
+}
