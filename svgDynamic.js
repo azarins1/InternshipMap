@@ -1,4 +1,4 @@
-const container = document.getElementById("map-container");
+const container = document.getElementById("fullScreen");
 const svgHeight = container.clientHeight - document.getElementById('top-bar').clientHeight;
 const svgWidth = container.clientWidth;
 

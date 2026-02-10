@@ -8,18 +8,51 @@
 </head>
 
 <body>
-    <div id="top-bar">
-        <button id="jobs_btn" class="filterBtn">All Jobs</button>
-        <button id="swe_btn" class="filterBtn">SWE</button>
-        <button id="hardware_btn" class="filterBtn">Hardware</button>
-        <button id="quant_btn" class="filterBtn">Quant</button>
-        <button id="datascience_ml_btn" class="filterBtn">DataScience/ML</button>
-        <button id="hide_btn" class="filterBtn">Hide Cities</button>
+    <div class="textSection" id="intro">
+        <img src="./Skyscrapers.jpeg">
+        <div class="padded">
+            <h1 class="centerTxt">Tech Internships in United States</h1>
+            <p style="text-align: center;">Arthur Zarins</p>
+            <p>This study visualizes the distribution of technology internships across the United States.</p>
+            <p>
+                One of the most popular job boards for tech jobs is <a
+                    href="https://github.com/SimplifyJobs">Simplify's</a> annual internship list, with over 40,000 stars
+                on GitHub.
+                Over 7,000 archive internship posts for 2026 with role and location information from Simplify were used
+                as the dataset for this study.
+                Internship posts that didn't specify a city location would count towards a
+                state's total internship count but were not plotted on the map.
+                Cities were convereted to latitude and longitude coordinates with
+                <a href="https://simplemaps.com/data/world-cities">SimpleMaps's World Cities Database</a>.
+            </p>
+            <p>
+                Within the dataset, California is the state with the most internship roles in software engineering,
+                hardware, and data science while New York leads in quantitative finance.
+                A limitation of this study is that it counts the number of internship postings while not taking
+                into account that different internship roles will have a differing amounts of interns.
+            </p>
+            <p>The interactive map programmed with <a href="https://d3js.org/">D3js</a> can be viwed below on this
+                webpage.</p>
+            <a id="goToChartBtn" href="#fullScreen">
+                <img src="./ArrowDown.svg">
+            </a>
+        </div>
     </div>
-    <div id="map-container">
-        <div id="quickStats"></div>
-        <h1 id="title">Tech Internships in United States</h1>
-        <div id="legend"></div>
+
+    <div id="fullScreen">
+        <div id="top-bar">
+            <button id="jobs_btn" class="filterBtn">All Jobs</button>
+            <button id="swe_btn" class="filterBtn">SWE</button>
+            <button id="hardware_btn" class="filterBtn">Hardware</button>
+            <button id="quant_btn" class="filterBtn">Quant</button>
+            <button id="datascience_ml_btn" class="filterBtn">DataScience/ML</button>
+            <button id="hide_btn" class="filterBtn">Hide Cities</button>
+        </div>
+        <div id="map-container">
+            <div id="quickStats"></div>
+            <h1 id="title">Tech Internships in United States</h1>
+            <div id="legend"></div>
+        </div>
     </div>
 </body>
 

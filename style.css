@@ -1,5 +1,8 @@
 * {
     font-family: Helvetica;
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    overflow-x: clip;
 }
 
 body {
@@ -10,6 +13,10 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+#fullScreen{
     height: 100vh;
     width: 100vw;
 }
@@ -32,15 +39,26 @@ svg {
 }
 
 #top-bar {
-    background-color: rgb(6, 108, 95);
-    padding: 10px;
+    position: relative;
+    background-color: rgb(82, 82, 82);
+    width: 100%;
+    z-index: 9;
 }
 
-button {
+.filterBtn {
     border: none;
     color: white;
     background-color: rgb(168, 168, 168);
     font-size: 20px;
+    margin: 5px;
+}
+
+.goToChartBtn {
+    border: none;
+    color: white;
+    background-color: rgb(168, 168, 168);
+    font-size: 20px;
+    margin: 5px;
 }
 
 .selected {
@@ -53,10 +71,11 @@ button {
     color: white;
     font-size: calc(20px + 1vw);
     margin: 0;
+    top: 2vh;
 }
 
 .state {
-    transition-duration: 0.5s;
+    transition-duration: 0.25s;
 }
 
 #quickStats{
@@ -99,4 +118,58 @@ button {
 }
 #quickStats b{
     text-align: center;
+}
+
+.padded{
+    position: relative;
+    z-index: 4;
+    padding: calc(1vw + 10px);
+}
+
+.centerTxt {
+    text-align: center;
+}
+
+.textSection img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: opacity(0.3) grayscale(1);
+}
+
+#intro{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.padded p {
+    font-size: calc(10px + 1.2vw);
+}
+
+.padded h1{
+    font-size: calc(20px + 2vw);
+    /* transform: translateX(-25%); */
+}
+
+#goToChartBtn {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+#goToChartBtn img{
+    z-index: 999;
+    filter: invert(1);
+    border: none;
+    color: white;
+    --size: calc(50px + 2vw);
+    width: var(--size);
+    height: var(--size);
+    transform: translateX(-50%);
+}
+
+a {
+    color: inherit;
 }
