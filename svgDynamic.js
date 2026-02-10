@@ -24,7 +24,7 @@ var showCities = true;
 var lastTrait = '';
 
 d3.json('2010_us_census.json').then(unitedStates => {
-    // Map projection, pathGenerator, and svg append (except mouse events) generated with ChatGPT
+    // Map projection, pathGenerator, and svg append (except mouse events) generated with OpenAI ChatGPT 5
 
     const projection = d3.geoAlbersUsa() //geoAlbersUsa
         .fitSize([svgWidth, svgHeight], unitedStates);
@@ -78,7 +78,7 @@ document.getElementById('quant_btn').addEventListener('click', () => { filterCha
 document.getElementById('datascience_ml_btn').addEventListener('click', () => { filterChart('datascience_ml', globalProjection) });
 document.getElementById('hide_btn').addEventListener('click', () => { toggleCities() });
 
-function toggleCities(){
+function toggleCities() {
     showCities = !showCities;
     filterChart(lastTrait, globalProjection);
     if (showCities)
@@ -87,18 +87,18 @@ function toggleCities(){
         document.getElementById('hide_btn').innerHTML = 'Show Cities';
 }
 
-function deleteAll(){
+function deleteAll() {
     let circles = document.getElementsByTagName('circle');
     console.log(`Removing ${circles.length} circles`);
-    for (let i = circles.length - 1; i >= 0; i--){
+    for (let i = circles.length - 1; i >= 0; i--) {
         circles[i].remove();
     }
     console.log('done');
 }
 
-function capitalizeWord(word){
+function capitalizeWord(word) {
     if (word == 'swe') return 'SWE';
-    if (word == 'datascience_ml') return 'Data Science & ML';
+    if (word == 'datascience_ml') return 'Data Sci & ML';
     let firstLetter = word[0];
     console.log(firstLetter);
     return firstLetter.toUpperCase() + word.slice(1);
@@ -109,11 +109,10 @@ function filterChart(trait, projection) {
 
     // highlight the related button
     let btns = document.getElementsByClassName('filterBtn');
-    for (let i = 0; i < btns.length; i++){
+    for (let i = 0; i < btns.length; i++) {
         btns[i].classList.remove('selected');
     }
     document.getElementById(`${trait}_btn`).classList.add('selected')
-
 
     // Update the chart's title
     let titleText = `Tech Internships in United States`;
@@ -122,9 +121,8 @@ function filterChart(trait, projection) {
     document.getElementById('title').innerHTML = titleText;
 
     deleteAll(); // remove pre-existing circles from the plot
-    
-    stateStats = {}; // reset state stats
 
+    stateStats = {}; // reset state stats
     const data = internshipData.cities;
     console.log(data[0].location, data[0].data.jobs, data[0].data[trait]);
     for (let i = 0; i < data.length; i++) {
@@ -144,12 +142,12 @@ function filterChart(trait, projection) {
         if (!XYcoords)
             continue;
 
-        let r = Math.pow(data[i].data[trait], 3 / 5) * (svgWidth / 1000);
+        let r = Math.sqrt(data[i].data[trait]) * (svgWidth / 750);
         const fillColor = '#04ffd9ff';
         svg.append('circle')
             .attr('cx', XYcoords[0])
             .attr('cy', XYcoords[1])
-            .attr('r', r)
+            .attr('r', 0)
             .attr('fill', fillColor)
             .attr('stroke', 'black')
             .attr('stroke-opacity', 0.3)
@@ -182,6 +180,9 @@ function filterChart(trait, projection) {
                     .attr('fill', fillColor)
                 tooltip.style("visibility", "hidden");
             })
+            .transition()
+            .duration(500)
+            .attr('r', r)
 
         let stateName = data[i].location.split(',').at(-1).trim();
         if (states[stateName] != undefined)
@@ -192,12 +193,25 @@ function filterChart(trait, projection) {
     }
 
     let region_array = []
+    let total_jobs = 0;
     for (const [key, value] of Object.entries(stateStats)) {
         region_array.push({ state: key, jobs: value });
+        total_jobs += value;
     }
     // sort so locations with the most internships have lower indices
     region_array.sort((a, b) => { return b.jobs - a.jobs; });
     const maxJobs = region_array[0].jobs;
+
+    const quickStats = document.getElementById('quickStats');
+    let top_regions = 0;
+    quickStats.innerHTML = 
+    `<p><b><u>${total_jobs} total roles</u></b></p>`;
+    for (let i = 0; i < 5; i++){
+        let entry = document.createElement('p');
+        entry.innerHTML= `${i+1}. ${region_array[i].state}, ${region_array[i].jobs} (${Math.floor(region_array[i].jobs*100/total_jobs)}%)<br>`
+        quickStats.appendChild(entry);
+        top_regions += region_array[i].jobs;
+    }
 
     // Color in the states
     let state_names = Object.values(states);

@@ -1,6 +1,7 @@
 * {
     font-family: Helvetica;
 }
+
 body {
     margin: 0
 }
@@ -26,26 +27,53 @@ body {
     padding: 5px;
 }
 
-svg{
+svg {
     background-color: rgb(0, 182, 182);
 }
 
-#top-bar{
-    background-color: rgb(4, 4, 79);
+#top-bar {
+    background-color: rgb(6, 108, 95);
     padding: 10px;
 }
-button{
+
+button {
     border: none;
     color: white;
     background-color: rgb(168, 168, 168);
     font-size: 20px;
 }
-.selected{
+
+.selected {
     background-color: rgb(29, 228, 211);
 }
-#title{
+
+#title {
     position: absolute;
     text-align: center;
     color: white;
     font-size: calc(20px + 1vw);
+    margin: 0;
+}
+
+.state {
+    transition-duration: 0.5s;
+}
+
+#quickStats{
+    position: absolute;
+    bottom: calc(5vw);
+    right: 0;
+    display: inline-block;
+    color: white;
+    max-width: calc(150px + 3.7vw);
+    padding-right: 10px;
+    font-size: calc(12px + 0.2vw);
+}
+
+#quickStats p{
+    margin: 0;
+    font-size: inherit;
+}
+#quickStats b{
+    text-align: center;
 }
