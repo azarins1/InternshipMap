@@ -87,6 +87,7 @@ function toggleCities() {
         document.getElementById('hide_btn').innerHTML = 'Show Cities';
 }
 
+// Delete all circles in the SVG
 function deleteAll() {
     let circles = document.getElementsByTagName('circle');
     console.log(`Removing ${circles.length} circles`);
@@ -104,6 +105,7 @@ function capitalizeWord(word) {
     return firstLetter.toUpperCase() + word.slice(1);
 }
 
+// Display a complete chart, filtered for a specific type of job
 function filterChart(trait, projection) {
     lastTrait = trait;
 
@@ -237,7 +239,7 @@ function filterChart(trait, projection) {
 function createLegend() {
     const legend = document.getElementById('legend');
     const colors = ['rgb(255,80,80)', 'rgb(0,80,80)'];
-    const labels = ['Most Jobs', 'Least Jobs'];
+    const labels = ['Most roles', 'Least roles'];
     for (let i = 0; i < 2; i++){
         const rect = document.createElement('div');
         rect.style.backgroundColor = colors[i];
