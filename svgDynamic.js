@@ -23,7 +23,8 @@ var globalProjection = undefined;
 var showCities = true;
 var lastTrait = '';
 
-d3.json('2010_us_census.json').then(unitedStates => {
+var fileName = '2010_us_census.json';
+d3.json('canada_and_usa.json').then(unitedStates => {
     // Map projection, pathGenerator, and svg append (except mouse events) generated with OpenAI ChatGPT 5
 
     const projection = d3.geoAlbersUsa() //geoAlbersUsa
@@ -218,6 +219,7 @@ function filterChart(trait, projection) {
     // Color in the states
     let state_names = Object.values(states);
     for (let i = 0; i < state_names.length; i++) {
+        // console.log(state_names[i]);
         document.getElementById(state_names[i]).style.fill = 'rgb(0,80,80)';
     }
     console.log(region_array)
@@ -232,23 +234,26 @@ function filterChart(trait, projection) {
             `rgb(${scale}, 80, 80)`;
     }
 
+    document.getElementById('Canada').style.strokeWidth = '5';
+
     if (showCities == false)
         deleteAll();
 }
 
 function createLegend() {
     const legend = document.getElementById('legend');
-    const colors = ['rgb(255,80,80)', 'rgb(0,80,80)'];
-    const labels = ['Most roles', 'Least roles'];
-    for (let i = 0; i < 2; i++){
-        const rect = document.createElement('div');
-        rect.style.backgroundColor = colors[i];
-        legend.appendChild(rect);
 
-        const label = document.createElement('p');
-        label.innerHTML = labels[i]
-        legend.appendChild(label);
-        legend.appendChild(document.createElement('br'))
-    }
+    const label_most = document.createElement('p');
+    label_most.innerHTML = 'Most roles';
+    label_most.classList.add('labelMost');
+    legend.appendChild(label_most);
+
+    const rect = document.createElement('div');
+    rect.id = 'legendBox';
+    legend.appendChild(rect);
+
+    const label_least = document.createElement('p');
+    label_least.innerHTML = 'Least roles';
+    legend.appendChild(label_least);
 }
 createLegend();

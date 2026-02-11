@@ -98,19 +98,23 @@ svg {
 }
 #legend div{
     display: inline-block;
-    --size: calc(10px + 0.3vw);
-    width: var(--size);
-    height: var(--size);
+    --size: calc(12px + 0.5vw);
+    width: calc(var(--size) * 4.5);
+    height: calc(var(--size) * 4.5);
     border: 2px solid white;
-    background-color: red;
+    background: linear-gradient(rgb(255,80,80), rgb(0,80,80));
 }
 #legend p {
-    display: inline-block;
-    font-size: calc(20px + 0.3vw);
+    display: block;
+    font-size: calc(16px + 0.3vw);
     text-align: center;
     font-weight: 100;
     margin: 0;
-    margin-left: 5px;
+    margin-left: -2px;
+}
+#labelMost {
+    position: relative;
+    transform: translateY(-100px);
 }
 
 #quickStats p{
