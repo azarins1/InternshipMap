@@ -10842,7 +10842,7 @@
 <tr>
 <td><strong><a href="https://simplify.jobs/c/Ava-Labs?utm_source=GHList&utm_medium=company">Ava Labs</a></strong></td>
 <td>Summer 2026 Internship</td>
-<td>Brooklyn, NY</td>
+<td>New York, NY</td>
 <td>🔒</td>
 <td>4mo</td>
 </tr>
@@ -21286,7 +21286,7 @@
 <tr>
 <td><strong><a href="https://simplify.jobs/c/VeraInstitute?utm_source=GHList&utm_medium=company">Vera Institute of Justice</a></strong></td>
 <td>Research Intern - Incarceration & Inequality Project</td>
-<td>Brooklyn, NY</td>
+<td>New York, NY</td>
 <td>🔒</td>
 <td>1mo</td>
 </tr>
@@ -30036,7 +30036,7 @@
 <tr>
 <td><strong><a href="https://simplify.jobs/c/MLB?utm_source=GHList&utm_medium=company">Major League Baseball</a></strong></td>
 <td>Data Science Intern - Baseball Analytics</td>
-<td>Queens, NY</td>
+<td>New York, NY</td>
 <td>🔒</td>
 <td>3mo</td>
 </tr>
