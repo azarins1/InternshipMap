@@ -17,35 +17,53 @@ var tooltip = d3.select("#map-container")
     .style("visibility", "hidden")
 
 var internshipData = {};
-var stateStats = {};
+var stateStats = {}; // contains aggregated job stats
+var cities_in_state = {}; // contains list of all cities
+var companies_in_state = {}; // contains list of all companies in a state
+
 var globalProjection = undefined;
 var showCities = true;
 var lastTrait = 'jobs';
 var showOnlyUSA = false;
 var globalProjection = null;
 var geoJSON_data = null;
+<<<<<<< HEAD
 var pathGenerator = null;
 var zoomedInState = null;
 
+=======
+>>>>>>> 310b26c (Log names of all companies that have jobs in a given state)
 d3.json('canada_and_usa.json').then(unitedStates => {
     geoJSON_data = unitedStates;
     createProjection(geoJSON_data);
 });
 function createProjection(data_geoJSON) {
     // Map projection, pathGenerator, and svg append (except mouse events) generated with OpenAI ChatGPT 5
+<<<<<<< HEAD
     if (showOnlyUSA) {
+=======
+    if (zoomInUSA) {
+>>>>>>> 310b26c (Log names of all companies that have jobs in a given state)
         globalProjection = d3.geoAlbersUsa()
             .fitSize([svgWidth, svgHeight], data_geoJSON)
     } else {
         globalProjection = d3.geoAlbers()
+<<<<<<< HEAD
             .parallels([29.5, 45.5])
+=======
+            .parallels([29.5, 45.5])       
+>>>>>>> 310b26c (Log names of all companies that have jobs in a given state)
             .rotate([96, 0])
             .center([0, 50])
             .scale(Math.min(1200, svgWidth))
             .translate([svgWidth / 2, svgHeight / 2]);
     }
 
+<<<<<<< HEAD
     pathGenerator = d3.geoPath()
+=======
+    const pathGenerator = d3.geoPath()
+>>>>>>> 310b26c (Log names of all companies that have jobs in a given state)
         .projection(globalProjection);
 
     removeAllStates(); // delete any previous polygon paths
@@ -80,7 +98,10 @@ function createProjection(data_geoJSON) {
             }
         })
         .on("mousemove", (evt) => {
-            tooltip.style("top", (event.offsetY) + "px").style("left", (event.offsetX + 10) + "px");
+            tooltip.style("top", (evt.offsetY) + "px").style("left", (evt.offsetX + 10) + "px");
+        })
+        .on('click', (evt) => {
+            investigateState(evt.currentTarget.id);
         })
         .on('mouseleave', (event) => {
             tooltip.style("visibility", "hidden");
@@ -217,6 +238,8 @@ function filterChart(trait, projection) {
     removeAllCities(); // remove pre-existing circles from the plot
 
     stateStats = {}; // reset state stats
+    cities_in_state = {}; // reset state cities
+    companies_in_state = {} // reset companies in state
     const data = internshipData.cities;
     for (let i = 0; i < data.length; i++) {
         // draw city
@@ -290,6 +313,12 @@ function filterChart(trait, projection) {
             if (stateStats[stateName] == undefined)
                 stateStats[stateName] = 0;
             stateStats[stateName] += data[i].data[trait];
+            if (cities_in_state[stateName] == undefined){
+                cities_in_state[stateName] = [];
+                companies_in_state[stateName] = new Set();
+            }
+            cities_in_state[stateName].push(data[i].location);
+            data[i].data.companies.forEach((company) => companies_in_state[stateName].add(company));
         }
     }
 
