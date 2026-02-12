@@ -50,7 +50,7 @@ svg {
     border: none;
     color: white;
     background-color: rgb(168, 168, 168);
-    font-size: 20px;
+    font-size: calc(10px + 1vw);
     margin: 5px;
 }
 
@@ -70,7 +70,7 @@ svg {
     position: absolute;
     text-align: center;
     color: white;
-    font-size: calc(20px + 1vw);
+    font-size: calc(16px + 1vw);
     margin: 0;
     top: 2vh;
     background-color: rgba(112, 112, 112, 0.732);
