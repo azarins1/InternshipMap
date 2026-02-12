@@ -42,18 +42,19 @@ body {
 }
 
 #cityStats #exitBtn{
+    margin: 0;
     font-size: calc(20px + 2vw);
     width: calc(50px + 2vw);
     height: calc(40px + 2vw);
-    background-color: rgb(225, 119, 119);
+    /* background-color: rgb(225, 119, 119); */
     text-align: center;
     position: absolute;
     right: calc(15px + 1vw);
+    top: calc(15px + 1vw);
     font-weight: 100;
     border: 1px solid black;
     border-radius: 50%;
     padding-top: 10px;
-    top: 0;
 }
 
 .state {

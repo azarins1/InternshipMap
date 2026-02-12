@@ -31,7 +31,7 @@ var globalProjection = null;
 var geoJSON_data = null;
 var pathGenerator = null;
 var zoomedInState = null;
-var zoomedIntoCity = false;
+var zoomedInCity = null;
 
 d3.json('canada_and_usa.json').then(unitedStates => {
     geoJSON_data = unitedStates;
@@ -97,7 +97,7 @@ function createProjection(data_geoJSON) {
     d3.select('#SVG_G').selectAll("path")
         .on("click", (event, d) => {
             let selectedState = d.properties.NAME;
-            if (zoomedInState == selectedState && zoomedIntoCity == false) {
+            if (zoomedInState == selectedState && zoomedInCity == null) {
                 resetZoom(); // we are already zoomed in - zoom out
             } else {
                 if (d.properties.NAME != 'Mexico') {
@@ -160,14 +160,12 @@ function removeAllCities() {
 
 // Change radii of cities to make them smaller when zooming in
 function changeCityRadii() {
-    let opacity = 0.5
+    let opacity = 0.7
     let factor = 1;
-    if (zoomedIntoCity != false){
+    if (zoomedInCity != null) {
         factor = 0.1;
-        opacity = 1;
     } else if (zoomedInState != null) {
         factor = 0.3;
-        opacity = 1;
     }
     let circles = document.getElementsByTagName('circle');
     for (let i = 0; i < circles.length; i++) {
@@ -295,7 +293,11 @@ function filterChart(trait, projection) {
                 tooltip.style("top", (event.offsetY) + "px").style("left", (event.offsetX + 10) + "px");
             })
             .on('click', (evt) => {
-                cityStats(evt.currentTarget.id);
+                if (zoomedInCity != evt.currentTarget.id) {
+                    cityStats(evt.currentTarget.id);
+                } else {
+                    resetZoom();
+                }
             })
             .on('mouseleave', (event) => {
                 d3.select(event.currentTarget)
@@ -414,9 +416,10 @@ function cityStats(city) {
         }
     }
 
-    if (city.split(',').length > 1){
+    if (city.split(',').length > 1) {
         zoomedInState = states[city.split(',')[1].trim()]
     }
+    zoomedInCity = city;
     zoomToFeature(cityFeature);
 
     document.getElementById('title').innerHTML = ''; // hide chart title
@@ -432,14 +435,14 @@ function cityStats(city) {
     const cityData = internshipData.cities[index];
     const companies = cityData.data.companies;
 
-    const h1 = document.createElement('h1');
-    h1.innerHTML = `${city}`;
-    div.appendChild(h1);
-
     const exitBtn = document.createElement('h3');
     exitBtn.innerHTML = 'X';
     exitBtn.setAttribute('id', 'exitBtn');
     div.appendChild(exitBtn);
+
+    const h1 = document.createElement('h1');
+    h1.innerHTML = `${city}`;
+    div.appendChild(h1);
 
     const d1 = document.createElement('p');
     d1.innerHTML = `<b>${cityData.data.jobs} roles</b>, Rank <b>#${index + 1}</b> in North America`;
@@ -513,14 +516,13 @@ function zoomToFeature(feature) {
     let x, y, scale;
 
     if (feature.geometry.type === "Point") {
-        zoomedIntoCity = true;
         console.log(feature.geometry.coordinates);
         const project = globalProjection(feature.geometry.coordinates);
         console.log(project);
         [x, y] = globalProjection(feature.geometry.coordinates);
         scale = 15; // fixed zoom level
     } else {
-        zoomedIntoCity = false;
+        zoomedInCity = null;
         const [[x0, y0], [x1, y1]] = pathGenerator.bounds(feature);
         const dx = x1 - x0;
         const dy = y1 - y0;
@@ -546,10 +548,15 @@ function zoomToFeature(feature) {
         });
 }
 function resetZoom() {
+    // Click exitBtn to remove cityStats if applicable
+    if (document.getElementById('exitBtn') != undefined)
+        document.getElementById('exitBtn').click();
+
     tooltip.style("visibility", "hidden");
     document.getElementById('quickStats').classList.remove('hidden');
     document.getElementById('legend').classList.remove('hidden');
     zoomedInState = null;
+    zoomedInCity = null;
     changeCityRadii();
     updateTitle(lastTrait);
     svg.transition()
