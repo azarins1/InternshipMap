@@ -62,7 +62,8 @@ function createProjection(data_geoJSON) {
         .attr("class", "state")
         .attr("d", pathGenerator)
         .on("mouseover", (event) => {
-            document.getElementById(event.currentTarget.id).style.strokeWidth = '5';
+            if (zoomedInState != event.currentTarget.id)
+                document.getElementById(event.currentTarget.id).style.strokeWidth = '5';
         })
         .on("mouseenter", (event) => {
             tooltip.style("visibility", "visible");
@@ -81,8 +82,6 @@ function createProjection(data_geoJSON) {
         .on("mousemove", (evt) => {
             tooltip.style("top", (event.offsetY) + "px").style("left", (event.offsetX + 10) + "px");
         })
-        .on('click', (evt) => {
-        })
         .on('mouseleave', (event) => {
             tooltip.style("visibility", "hidden");
             document.getElementById(event.currentTarget.id).style.strokeWidth = '0.5';
@@ -95,8 +94,11 @@ function createProjection(data_geoJSON) {
             if (zoomedInState == selectedState) {
                 resetZoom(); // we are already zoomed in - zoom out
             } else {
-                zoomedInState = d.properties.NAME;
-                zoomToFeature(d);
+                if (d.properties.NAME != 'Mexico') {
+                    zoomedInState = d.properties.NAME;
+                    zoomToFeature(d);
+                    document.getElementById(selectedState).style.strokeWidth = '0.5';
+                }
             }
         });
 
@@ -144,10 +146,39 @@ function removeAllCities() {
     console.log('citiesRemoved')
 }
 
+// Change radii of cities to make them smaller when zooming in
+function changeCityRadii() {
+    let opacity = 0.5
+    let factor = 1;
+    if (zoomedInState != null) {
+        factor = 0.3;
+        opacity = 1;
+    }
+    let circles = document.getElementsByTagName('circle');
+    for (let i = 0; i < circles.length; i++) {
+        const jobs = circles[i].getAttribute('TOTAL_JOBS');
+        let r = 0.5 + Math.sqrt(jobs) * (svgWidth / 750) * factor;
+        d3.select(circles[i])
+            .transition()
+            .duration(500)
+            .attr('r', r)
+            .attr('opacity', opacity)
+    }
+}
+
 function removeAllStates() {
     let states = document.getElementsByClassName('state');
     for (let i = states.length - 1; i >= 0; i--) {
         states[i].remove();
+    }
+}
+
+function stateOpacities(opacityLevel) {
+    // return;
+    let states = document.getElementsByClassName('state');
+    for (let i = states.length - 1; i >= 0; i--) {
+        states[i].setAttribute('transitionDuration', 0);
+        states[i].setAttribute('opacity', opacityLevel);
     }
 }
 
@@ -157,6 +188,18 @@ function capitalizeWord(word) {
     let firstLetter = word[0];
     console.log(firstLetter);
     return firstLetter.toUpperCase() + word.slice(1);
+}
+
+function updateTitle(trait) {
+    // Update the chart's title
+    let region = 'North America'
+    if (showOnlyUSA) region = 'United States';
+    if (zoomedInState != null) region = zoomedInState;
+    let titleText = `Tech Internships in ${region}`;
+    if (trait != 'jobs')
+        titleText = `${capitalizeWord(trait)} Internships in ${region}`;
+    document.getElementById('title').innerHTML = titleText;
+
 }
 
 // Display a complete chart, filtered for a specific type of job
@@ -170,14 +213,7 @@ function filterChart(trait, projection) {
     }
     document.getElementById(`${trait}_btn`).classList.add('selected')
 
-    // Update the chart's title
-    let region = 'North America'
-    if (showOnlyUSA) region = 'United States'
-    let titleText = `Tech Internships in ${region}`;
-    if (trait != 'jobs')
-        titleText = `${capitalizeWord(trait)} Internships in ${region}`;
-    document.getElementById('title').innerHTML = titleText;
-
+    updateTitle(trait);
     removeAllCities(); // remove pre-existing circles from the plot
 
     stateStats = {}; // reset state stats
@@ -210,11 +246,13 @@ function filterChart(trait, projection) {
             .attr('cx', XYcoords[0])
             .attr('cy', XYcoords[1])
             .attr('r', 0)
+            .attr('rMAX', r)
             .attr('fill', fillColor)
             .attr('stroke', 'black')
             .attr('stroke-opacity', 0.3)
             .attr('TOTAL_JOBS', data[i].data[trait])
             .attr('DATA', data[i].data)
+            .attr('id', data[i].location)
             .attr('CITY_NAME', data[i].location)
             .attr('opacity', 0.5)
             .on("mouseenter", (event) => {
@@ -222,7 +260,6 @@ function filterChart(trait, projection) {
                     .attr('opacity', 1)
                     .attr('stroke-width', 3)
                     .attr('z-index', 99)
-                    .attr('fill', 'lime')
                 tooltip.style("visibility", "visible");
                 const cityName = d3.select(event.currentTarget).attr('CITY_NAME');
                 const jobCount = d3.select(event.currentTarget).attr('TOTAL_JOBS');
@@ -245,7 +282,6 @@ function filterChart(trait, projection) {
             .transition()
             .duration(500)
             .attr('r', r)
-
 
         if (data[i].location.split(',').length >= 2) {
             let stateName = data[i].location.split(',').at(1).trim();
@@ -339,31 +375,51 @@ const zoom = d3.zoom()
     .scaleExtent([1, 8])
     .on("zoom", (event) => {
         d3.select('#SVG_G').attr("transform", event.transform);
-    });
+    })
+    .filter((event) => {
+        return false; // prevent user from manually zooming or panning
+    })
+
 
 svg.call(zoom);
 
 function zoomToFeature(feature) {
+    document.getElementById('quickStats').classList.add('hidden');
+    changeCityRadii();
+
+    updateTitle(lastTrait);
     const [[x0, y0], [x1, y1]] = pathGenerator.bounds(feature);
     const dx = x1 - x0;
     const dy = y1 - y0;
     const x = (x0 + x1) / 2;
     const y = (y0 + y1) / 2;
 
-    const scale = Math.min(8, 0.9 / Math.max(dx / svgWidth, dy / svgHeight));
+    const scale = Math.min(8, 0.85 / Math.max(dx / svgWidth, dy / svgHeight));
 
     const transform = d3.zoomIdentity
         .translate(svgWidth / 2, svgHeight / 2)
         .scale(scale)
         .translate(-x, -y);
 
+    stateOpacities(0.5);
+    document.getElementById(zoomedInState).setAttribute('opacity', 1);
+
     svg.transition()
-        .duration(750)
-        .call(zoom.transform, transform);
+        .duration(1000)
+        .call(zoom.transform, transform)
+        .on('end', () => {
+        });
 }
 function resetZoom() {
+    tooltip.style("visibility", "hidden");
+    document.getElementById('quickStats').classList.remove('hidden');
     zoomedInState = null;
+    changeCityRadii();
+    updateTitle(lastTrait);
     svg.transition()
-        .duration(750)
-        .call(zoom.transform, d3.zoomIdentity);
+        .duration(1000)
+        .call(zoom.transform, d3.zoomIdentity)
+        .on('end', () => {
+            stateOpacities(1);
+        });
 }

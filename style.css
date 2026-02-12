@@ -25,6 +25,7 @@ body {
     fill: grey;
     stroke: white;
     stroke-width: 0.5;
+    transition-duration: 0.25s;
 }
 
 .tooltip {
@@ -32,6 +33,11 @@ body {
     background-color: white;
     border-radius: 15px;
     padding: 5px;
+}
+
+.hidden{
+    filter: opacity(0);
+    /* display: none !important; */
 }
 
 svg {
@@ -78,10 +84,6 @@ svg {
     border-radius: 15px;
 }
 
-.state {
-    transition-duration: 0.25s;
-}
-
 #quickStats{
     position: absolute;
     bottom: calc(5vw);
@@ -91,6 +93,7 @@ svg {
     /* max-width: calc(150px + 3.7vw); */
     padding-right: 10px;
     font-size: calc(16px + 0.1vw);
+    transition-duration: 1s;
 }
 
 #legend{
